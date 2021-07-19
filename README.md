@@ -9,7 +9,7 @@ shell - zsh
 
 monitor - htop
 
-file manager - thunar
+file manager - ranger
 
 terminal emulator - urxvt
 
