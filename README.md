@@ -3,4 +3,4 @@
 # Install
 Clone this repo, copy files, reboot
 
-![Error](https://github.com/RishiKakade/dotfiles/Pictures/setup.png)
+![Error](https://github.com/RishiKakade/dotfiles/blob/master/Pictures/setup.png)
