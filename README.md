@@ -9,7 +9,7 @@ shell - zsh
 
 monitor - htop
 
-file manager - thunar (ik its bloaaaaat)
+file manager - thunar
 
 terminal emulator - urxvt
 
