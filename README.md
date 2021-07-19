@@ -18,6 +18,6 @@ broswer - firefox
 document viewer - foxit reader
 
 # Install
-Clone this repo, copy files, reboot
+Clone main branch, copy files, reboot
 
 ![Error](https://github.com/RishiKakade/dotfiles/blob/master/Pictures/setup.png)
