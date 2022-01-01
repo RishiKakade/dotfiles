@@ -1,23 +1,6 @@
-# Arch dotfiles
-wm - i3
-
-taskbar -polybar
-
-aur helper - yay
-
-shell - zsh 
-
-monitor - htop
-
-file manager - ranger
-
-terminal emulator - urxvt
-
-broswer - firefox
-
-document viewer - foxit reader
-
+# Debian dotfiles
+rishi on moon look at earthrise
 # Install
-Clone master branch, copy files, reboot
+	git clone https://github.com/RishiKakade/dotfiles/ && cp -a dotfiles./ ~
 
-![Error](https://github.com/RishiKakade/dotfiles/blob/master/Pictures/setup.png)
+![Screenshot](https://github.com/RishiKakade/dotfiles/blob/master/Pictures/setup.png)
