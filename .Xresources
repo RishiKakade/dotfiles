@@ -80,6 +80,8 @@ URxvt*scrollBar_right:	false
 URxvt*internalBorder:	24
 URxvt*externalBorder:	0
 URxvt.geometry:			84x22
+URxvt*transparent: true
+URxvt*shading: 30
 
 ! perl extensions
 URxvt.perl-ext-common:	default,clipboard,url-select,keyboard-select

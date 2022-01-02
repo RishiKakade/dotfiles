@@ -11,22 +11,48 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/opacit
+~MSle0~/It looks
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1641077590,,"q"
+|2,0,1641091941,,"q"
+:VimtexCompile
+|2,0,1641090530,,"VimtexCompile"
 :wq
-|2,0,1641076335,,"wq"
+|2,0,1641090306,,"wq"
 :w
-|2,0,1641075234,,"w"
+|2,0,1641090047,,"w"
 :q!
-|2,0,1641073634,,"q!"
+|2,0,1641089871,,"q!"
+:q!\
+|2,0,1641089612,,"q!\\"
+:/blossom
+|2,0,1641089109,,"/blossom"
+:help vimtex
+|2,0,1641085008,,"help vimtex"
+:PlugUpdate
+|2,0,1641086921,,"PlugUpdate"
+:PlugInstall
+|2,0,1641085297,,"PlugInstall"
+:h vimtex-requirements
+|2,0,1641084573,,"h vimtex-requirements"
+:scriptnames
+|2,0,1641084324,,"scriptnames"
+:p
+|2,0,1641084274,,"p"
 :Q
-|2,0,1641073626,,"Q"
+|2,0,1641082067,,"Q"
+:help packages
+|2,0,1641081429,,"help packages"
+:help package
+|2,0,1641081352,,"help package"
+:trans
+|2,0,1641079198,,"trans"
+:Wq
+|2,0,1641078263,,"Wq"
 :w\
 |2,0,1641073522,,"w\\"
 :.
@@ -37,16 +63,44 @@ $
 |2,0,1640738748,,"w!"
 
 # Search String History (newest to oldest):
+?/It looks
+|2,1,1641090547,47,"It looks"
+?/image_size
+|2,1,1641090004,47,"image_size"
+?/nitrogen
+|2,1,1641089253,47,"nitrogen"
+? blossom
+|2,1,1641089109,,"blossom"
+?/w3m
+|2,1,1641089067,47,"w3m"
+?/image_back
+|2,1,1641088398,47,"image_back"
+?/It looks like
+|2,1,1641087518,47,"It looks like"
+?/vimtex_view_general_viewer
+|2,1,1641085155,47,"vimtex_view_general_viewer"
+?/vimtex_compiler_progname
+|2,1,1641085112,47,"vimtex_compiler_progname"
+?/vimtex_compiler_progname\
+|2,1,1641085102,47,"vimtex_compiler_progname\\"
+?/vimtex_compiler
+|2,1,1641085087,47,"vimtex_compiler"
+?/compiler
+|2,1,1641085047,47,"compiler"
+? @$
+|2,1,1641084135,,"@$"
+?/background
+|2,1,1641080094,47,"background"
+?/URxvt.background
+|2,1,1641079875,47,"URxvt.background"
 ?/trans
-|2,1,1640757096,47,"trans"
+|2,1,1641079181,47,"trans"
 ?/opacit
 |2,1,1640756163,47,"opacit"
 ?/opac
 |2,1,1640756153,47,"opac"
 ?/wall
 |2,1,1640755662,47,"wall"
-? @$
-|2,1,1640738702,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -55,299 +109,431 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	2f343f
-|3,0,0,0,1,0,1640792097,"2f343f"
-"1	LINE	0
-	
-|3,0,1,1,1,0,1641075012,""
+"0	LINE	0
+	URxvt*background: rgba:0000/0000/0200/c800
+|3,0,0,1,1,0,1641084135,"URxvt*background: rgba:0000/0000/0200/c800"
+""1	LINE	0
+	Plug 'dd'
+|3,1,1,1,1,0,1641085273,"Plug 'dd'"
 "2	LINE	0
-	# Alias definitions.
-	# You may want to put all your additions into a separate file like
-	# ~/.bash_aliases, instead of adding them here directly.
-	# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+	URxvt*background: rgba:0000/0000/0200/c800
+|3,0,2,1,1,0,1641084270,"URxvt*background: rgba:0000/0000/0200/c800"
+"3	LINE	0
+	URxvt*background: rgba:0000/0000/0200/c800
+|3,0,3,1,1,0,1641080384,"URxvt*background: rgba:0000/0000/0200/c800"
+"4	CHAR	0
+	URxvt*depth: 32
+	URxvt*background: rgba:0000/0000/0200/c800
 	
-	if [ -f ~/.bash_aliases ]; then
-	    . ~/.bash_aliases
-	fi
-|3,0,2,1,8,0,1641075008,"# Alias definitions.","# You may want to put all your additions into a separate file like","# ~/.bash_aliases, instead of adding them here directly.","# See /usr/share/doc/bash-doc/examples in the bash-doc package.","","if [ -f ~/.bash_aliases ]; then","    . ~/.bash_aliases","fi"
-"3	CHAR	0
-	~/Pictures/wallpaper.png
 	
-|3,0,3,0,2,0,1640824104,"~/Pictures/wallpaper.png",""
-"4	LINE	0
-		i3bar_command i3bar --transparency
-|3,0,4,1,1,0,1640813313,"	i3bar_command i3bar --transparency"
+|3,0,4,0,4,0,1641080062,"URxvt*depth: 32","URxvt*background: rgba:0000/0000/0200/c800","",""
 "5	LINE	0
-	  "60:class_g = 'URxvt' && !focused"
-|3,0,5,1,1,0,1640757450,"  \"60:class_g = 'URxvt' && !focused\""
-"6	CHAR	0
-	
-	URxvt.transparent: true
-	URxvt.shading:20
-	
-	! Included this so you know how to make your foreground not match the color of your background
-	URxvt.foreground: #eeeeee
-|3,0,6,0,6,0,1640757241,"","URxvt.transparent: true","URxvt.shading:20","","! Included this so you know how to make your foreground not match the color of your background","URxvt.foreground: #eeeeee"
+	URxvt*depth
+|3,0,5,1,1,0,1641079922,"URxvt*depth"
+"6	LINE	0
+	wm - i3
+|3,0,6,1,1,0,1641078135,"wm - i3"
 "7	LINE	0
-	opacity-rule = ["80:class_g = 'Rxvt Color Unicode Terminal'"];
-|3,0,7,1,1,0,1640756782,"opacity-rule = [\"80:class_g = 'Rxvt Color Unicode Terminal'\"];"
-"8	LINE	0
 	
-	blur: {
-	  method = "kawase";
-	  strength = 9;
-	  background = false;
-	  background-frame = false;
-	  background-fixed = false;
-	}
-|3,0,8,1,8,0,1640756550,"","blur: {","  method = \"kawase\";","  strength = 9;","  background = false;","  background-frame = false;","  background-fixed = false;","}"
+|3,0,7,1,1,0,1641078134,""
+"8	LINE	0
+	file manager - ranger
+|3,0,8,1,1,0,1641078133,"file manager - ranger"
 "9	LINE	0
-	frame-opacity = 0.80;
-|3,0,9,1,1,0,1640756531,"frame-opacity = 0.80;"
-""-	CHAR	0
-	#
-|3,1,36,0,1,0,1641076100,"#"
+	
+|3,0,9,1,1,0,1641078133,""
+"-	CHAR	0
+	reader
+|3,0,36,0,1,0,1641077753,"reader"
 
 # File marks:
-'0  1  0  ~/.bash_history
-|4,48,1,0,1641077591,"~/.bash_history"
-'1  54  7  ~/.bashrc
-|4,49,54,7,1641076335,"~/.bashrc"
-'2  54  7  ~/.bashrc
-|4,50,54,7,1641076335,"~/.bashrc"
-'3  95  0  ~/.bashrc
-|4,51,95,0,1641075235,"~/.bashrc"
-'4  95  0  ~/.bashrc
-|4,52,95,0,1641075235,"~/.bashrc"
-'5  95  0  ~/.bashrc
-|4,53,95,0,1641075235,"~/.bashrc"
-'6  95  0  ~/.bashrc
-|4,54,95,0,1641075235,"~/.bashrc"
-'7  1  0  ~/core
-|4,55,1,0,1641073634,"~/core"
-'8  99  25  ~/.bashrc
-|4,56,99,25,1641073573,"~/.bashrc"
-'9  107  25  ~/.bashrc
-|4,57,107,25,1641073573,"~/.bashrc"
+'0  1  0  ~/Documents/dotfiles/.git/config
+|4,48,1,0,1641092167,"~/Documents/dotfiles/.git/config"
+'1  3  0  ~/.git/config
+|4,49,3,0,1641091999,"~/.git/config"
+'2  3  6  ~/Documents/dotfiles/.lesshst
+|4,50,3,6,1641091941,"~/Documents/dotfiles/.lesshst"
+'3  1  0  ~/Documents/dotfiles/.less
+|4,51,1,0,1641091937,"~/Documents/dotfiles/.less"
+'4  27  0  ~/Documents/dotfiles/.profile
+|4,52,27,0,1641091932,"~/Documents/dotfiles/.profile"
+'5  1  20  ~/Documents/dotfiles/LICENSE
+|4,53,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+'6  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,54,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+'7  9  0  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,55,9,0,1641090504,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+'8  9  0  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,56,9,0,1641090504,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+'9  864  11  ~/.config/neofetch/config.conf
+|4,57,864,11,1641090306,"~/.config/neofetch/config.conf"
 
 # Jumplist (newest first):
--'  1  0  ~/.bash_history
-|4,39,1,0,1641077591,"~/.bash_history"
--'  54  7  ~/.bashrc
-|4,39,54,7,1641076335,"~/.bashrc"
--'  54  7  ~/.bashrc
-|4,39,54,7,1641076335,"~/.bashrc"
--'  95  0  ~/.bashrc
-|4,39,95,0,1641076085,"~/.bashrc"
--'  95  0  ~/.bashrc
-|4,39,95,0,1641076085,"~/.bashrc"
--'  95  0  ~/.bashrc
-|4,39,95,0,1641075235,"~/.bashrc"
--'  83  25  ~/.bashrc
-|4,39,83,25,1641074640,"~/.bashrc"
--'  83  25  ~/.bashrc
-|4,39,83,25,1641074640,"~/.bashrc"
--'  83  25  ~/.bashrc
-|4,39,83,25,1641074640,"~/.bashrc"
--'  99  25  ~/.bashrc
-|4,39,99,25,1641074637,"~/.bashrc"
--'  99  25  ~/.bashrc
-|4,39,99,25,1641074637,"~/.bashrc"
--'  99  25  ~/.bashrc
-|4,39,99,25,1641074637,"~/.bashrc"
--'  1  0  ~/core
-|4,39,1,0,1641073634,"~/core"
--'  1  0  ~/core
-|4,39,1,0,1641073634,"~/core"
--'  1  0  ~/core
-|4,39,1,0,1641073634,"~/core"
--'  1  0  ~/core
-|4,39,1,0,1641073634,"~/core"
--'  1  0  ~/core
-|4,39,1,0,1641073634,"~/core"
--'  1  0  ~/core
-|4,39,1,0,1641073634,"~/core"
--'  1  0  ~/core
-|4,39,1,0,1641073634,"~/core"
--'  1  0  ~/core
-|4,39,1,0,1641073634,"~/core"
--'  107  25  ~/.bashrc
-|4,39,107,25,1641073573,"~/.bashrc"
--'  107  25  ~/.bashrc
-|4,39,107,25,1641073573,"~/.bashrc"
--'  107  25  ~/.bashrc
-|4,39,107,25,1641073573,"~/.bashrc"
--'  107  25  ~/.bashrc
-|4,39,107,25,1641073573,"~/.bashrc"
--'  60  108  ~/.bashrc
-|4,39,60,108,1641073545,"~/.bashrc"
--'  60  108  ~/.bashrc
-|4,39,60,108,1641073545,"~/.bashrc"
--'  60  108  ~/.bashrc
-|4,39,60,108,1641073545,"~/.bashrc"
--'  60  108  ~/.bashrc
-|4,39,60,108,1641073545,"~/.bashrc"
--'  60  108  ~/.bashrc
-|4,39,60,108,1641073545,"~/.bashrc"
--'  60  108  ~/.bashrc
-|4,39,60,108,1641073526,"~/.bashrc"
--'  60  108  ~/.bashrc
-|4,39,60,108,1641073526,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641073520,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641073520,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641073520,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641073520,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641073520,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641073520,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1641073520,"~/.bashrc"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
--'  50  0  /etc/wpa_supplicant/action_wpa.sh
-|4,39,50,0,1641060689,"/etc/wpa_supplicant/action_wpa.sh"
+-'  1  0  ~/Documents/dotfiles/.git/config
+|4,39,1,0,1641092167,"~/Documents/dotfiles/.git/config"
+-'  3  0  ~/.git/config
+|4,39,3,0,1641091999,"~/.git/config"
+-'  3  0  ~/.git/config
+|4,39,3,0,1641091999,"~/.git/config"
+-'  1  0  ~/.git/config
+|4,39,1,0,1641091996,"~/.git/config"
+-'  1  0  ~/.git/config
+|4,39,1,0,1641091996,"~/.git/config"
+-'  3  6  ~/Documents/dotfiles/.lesshst
+|4,39,3,6,1641091941,"~/Documents/dotfiles/.lesshst"
+-'  3  6  ~/Documents/dotfiles/.lesshst
+|4,39,3,6,1641091941,"~/Documents/dotfiles/.lesshst"
+-'  3  6  ~/Documents/dotfiles/.lesshst
+|4,39,3,6,1641091941,"~/Documents/dotfiles/.lesshst"
+-'  3  6  ~/Documents/dotfiles/.lesshst
+|4,39,3,6,1641091941,"~/Documents/dotfiles/.lesshst"
+-'  2  0  ~/Documents/dotfiles/.lesshst
+|4,39,2,0,1641091940,"~/Documents/dotfiles/.lesshst"
+-'  2  0  ~/Documents/dotfiles/.lesshst
+|4,39,2,0,1641091940,"~/Documents/dotfiles/.lesshst"
+-'  2  0  ~/Documents/dotfiles/.lesshst
+|4,39,2,0,1641091940,"~/Documents/dotfiles/.lesshst"
+-'  2  0  ~/Documents/dotfiles/.lesshst
+|4,39,2,0,1641091940,"~/Documents/dotfiles/.lesshst"
+-'  1  0  ~/Documents/dotfiles/.lesshst
+|4,39,1,0,1641091938,"~/Documents/dotfiles/.lesshst"
+-'  1  0  ~/Documents/dotfiles/.lesshst
+|4,39,1,0,1641091938,"~/Documents/dotfiles/.lesshst"
+-'  1  0  ~/Documents/dotfiles/.lesshst
+|4,39,1,0,1641091938,"~/Documents/dotfiles/.lesshst"
+-'  1  0  ~/Documents/dotfiles/.lesshst
+|4,39,1,0,1641091938,"~/Documents/dotfiles/.lesshst"
+-'  1  0  ~/Documents/dotfiles/.less
+|4,39,1,0,1641091937,"~/Documents/dotfiles/.less"
+-'  1  0  ~/Documents/dotfiles/.less
+|4,39,1,0,1641091937,"~/Documents/dotfiles/.less"
+-'  1  0  ~/Documents/dotfiles/.less
+|4,39,1,0,1641091937,"~/Documents/dotfiles/.less"
+-'  1  0  ~/Documents/dotfiles/.less
+|4,39,1,0,1641091937,"~/Documents/dotfiles/.less"
+-'  1  0  ~/Documents/dotfiles/.less
+|4,39,1,0,1641091937,"~/Documents/dotfiles/.less"
+-'  1  0  ~/Documents/dotfiles/.less
+|4,39,1,0,1641091937,"~/Documents/dotfiles/.less"
+-'  1  0  ~/Documents/dotfiles/.less
+|4,39,1,0,1641091937,"~/Documents/dotfiles/.less"
+-'  1  0  ~/Documents/dotfiles/.less
+|4,39,1,0,1641091937,"~/Documents/dotfiles/.less"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  27  0  ~/Documents/dotfiles/.profile
+|4,39,27,0,1641091932,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  0  ~/Documents/dotfiles/.profile
+|4,39,1,0,1641091927,"~/Documents/dotfiles/.profile"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  1  20  ~/Documents/dotfiles/LICENSE
+|4,39,1,20,1641091792,"~/Documents/dotfiles/LICENSE"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
+-'  300  1  /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+|4,39,300,1,1641091401,"/media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex"
 
 # History of marks within files (newest to oldest):
 
-> ~/.bash_history
-	*	1641077590	0
+> ~/Documents/dotfiles/.git/config
+	*	1641092164	0
 	"	1	0
 
+> ~/.git/config
+	*	1641091999	0
+	"	3	0
+
+> ~/Documents/dotfiles/.lesshst
+	*	1641091940	0
+	"	3	6
+
+> ~/Documents/dotfiles/.less
+	*	1641091936	0
+	"	1	0
+
+> ~/Documents/dotfiles/.profile
+	*	1641091931	0
+	"	27	0
+
+> ~/Documents/dotfiles/LICENSE
+	*	1641091791	0
+	"	1	20
+
+> /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-3/main.tex
+	*	1641090588	0
+	"	300	1
+	^	300	37
+	.	300	36
+	+	300	36
+
+> ~/.config/neofetch/config.conf
+	*	1641090306	0
+	"	864	11
+	^	147	22
+	.	147	21
+	+	697	17
+	+	711	45
+	+	829	15
+	+	12	4
+	+	13	4
+	+	17	4
+	+	18	4
+	+	20	4
+	+	829	15
+	+	64	20
+	+	119	17
+	+	131	13
+	+	147	21
+
+> ~/.config/nitrogen/bg-saved.cfg
+	*	1641089359	0
+	"	7	8
+
 > ~/.bashrc
-	*	1641076334	0
-	"	54	7
+	*	1641089312	0
+	"	105	0
 	^	95	0
 	.	88	0
 	+	82	4
 	+	92	0
 	+	94	15
 	+	88	0
+
+> ~/.xsettingsd
+	*	1641089273	0
+	"	1	0
+
+> ~/.Xauthority
+	*	1641089259	0
+	"	1	0
+
+> ~/.Xresources
+	*	1641089253	0
+	"	2	0
+	^	83	2
+	.	83	1
+	+	46	40
+	+	47	40
+	+	48	43
+	+	49	50
+	+	83	0
+	+	83	24
+	+	86	0
+	+	50	0
+	+	50	15
+	+	50	41
+	+	50	1
+	+	52	0
+	+	50	0
+	+	77	15
+	+	83	0
+	+	77	15
+	+	86	0
+	+	84	1
+	+	83	1
+
+> ~/.vimrc
+	*	1641086910	0
+	"	11	0
+	^	11	1
+	.	11	0
+	+	21	18
+	+	14	0
+	+	12	20
+	+	13	0
+	+	23	43
+	+	21	0
+	+	11	0
+
+> ~/.vim/plugged/vimtex/doc/vimtex.txt
+	*	1641086631	0
+	"	1682	3
+
+> /media/rkakade/0123-4567/university/ECE313/Assignment-3/ECE313-Homework-4/main.tex
+	*	1641086605	0
+	"	68	0
+
+> /usr/share/vim/vim82/doc/repeat.txt
+	*	1641082065	0
+	"	602	0
+
+> ~/.config/compton.conf
+	*	1641079815	0
+	"	62	1
+	^	62	2
+	.	62	1
+	+	26	13
+	+	27	18
+	+	28	18
+	+	29	20
+	+	28	19
+	+	27	17
+	+	58	0
+	+	59	24
+	+	59	20
+	+	59	0
+	+	60	16
+	+	62	0
+	+	61	4
+	+	60	1
+	+	61	1
+	+	62	1
+
+> ~/Documents/dotfiles/README.md
+	*	1641078284	0
+	"	2	30
+	^	2	31
+	.	2	31
+	+	1	8
+	+	2	0
+	+	2	31
+	+	4	71
+	+	4	25
+	+	3	1
+	+	4	0
+	+	6	12
+	+	2	31
+
+> ~/.bash_history
+	*	1641077590	0
+	"	1	0
 
 > ~/core
 	*	1641073632	0
@@ -473,41 +659,9 @@ $
 	*	1640791557	0
 	"	1	0
 
-> ~/.config/compton.conf
-	*	1640757604	0
-	"	61	21
-	^	61	24
-	.	61	24
-	+	26	13
-	+	27	18
-	+	28	18
-	+	29	20
-	+	28	19
-	+	27	17
-	+	58	0
-	+	59	24
-	+	59	20
-	+	59	0
-	+	60	16
-	+	62	0
-	+	61	24
-
 > ~/compton.conf
 	*	1640757351	0
 	"	1	0
-
-> ~/.Xresources
-	*	1640757244	0
-	"	83	0
-	^	83	25
-	.	84	0
-	+	46	40
-	+	47	40
-	+	48	43
-	+	49	50
-	+	83	0
-	+	83	24
-	+	84	0
 
 > ~/.config/con
 	*	1640756518	0
@@ -577,14 +731,6 @@ $
 
 > /etc/X11/xorg.conf.nvidia-xconfig-original
 	*	1640575905	0
-	"	1	0
-
-> ~/.xsettingsd
-	*	1640551238	0
-	"	1	0
-
-> ~/.Xauthority
-	*	1640551222	0
 	"	1	0
 
 > /etc/apt/sources.list
