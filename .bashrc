@@ -2,6 +2,12 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+#sudo nmcli dev wifi connect "ssid" password "pass" 
+#if some error message about secrets
+#nmcli con delete "ssid"
+
+#date +%s | sha256sum | base64 | head -c 32 ; echo
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -92,6 +98,7 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 alias la='ls -A'
 #alias l='ls -CF'
 alias sx=startx
+alias rm='shred -uzvn3'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
