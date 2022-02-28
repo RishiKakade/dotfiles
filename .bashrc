@@ -2,10 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-#sudo nmcli dev wifi connect "ssid" password "pass" 
-#if some error message about secrets
-#nmcli con delete "ssid"
-
+#nm-applet
 #date +%s | sha256sum | base64 | head -c 32 ; echo
 
 # If not running interactively, don't do anything
@@ -99,6 +96,31 @@ alias la='ls -A'
 #alias l='ls -CF'
 alias sx=startx
 alias rm='shred -uzvn3'
+alias love='neofetch --backend w3m --source ~/Pictures/love.jpeg'
+alias password16='date +%s | sha256sum | base64 | head -c 16 ; echo'
+alias password32='date +%s | sha256sum | base64 | head -c 32 ; echo'
+alias password64='date +%s | sha256sum | base64 | head -c 64 ; echo'
+alias password128='date +%s | sha256sum | base64 | head -c 128 ; echo'
+
+## using bluetooth
+bluetooth() {
+	if [[ $1 == "connect" ]]; then
+		if [[ $2 == "airpods" ]]; then
+			bluetoothctl -- connect 74:8F:3C:9E:A8:89
+		fi
+		if [[ $2 == "speakers" ]]; then
+			bluetoothctl -- connect 04:21:44:07:9D:CE
+		fi
+	elif [[ $1 == "disconnect" ]]; then
+		if [[ $2 == "airpods"  ]]; then
+			bluetoothctl -- disconnect 74:8F:3C:9E:A8:89
+		fi
+		if [[ $2 == "speakers" ]]; then
+			bluetoothctl -- disconnect 04:21:44:07:9D:CE
+		fi
+	fi
+}
+
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
