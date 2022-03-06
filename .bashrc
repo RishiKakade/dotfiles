@@ -95,12 +95,24 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 alias la='ls -A'
 #alias l='ls -CF'
 alias sx=startx
-alias rm='shred -uzvn3'
 alias love='neofetch --backend w3m --source ~/Pictures/love.jpeg'
 alias password16='date +%s | sha256sum | base64 | head -c 16 ; echo'
 alias password32='date +%s | sha256sum | base64 | head -c 32 ; echo'
 alias password64='date +%s | sha256sum | base64 | head -c 64 ; echo'
 alias password128='date +%s | sha256sum | base64 | head -c 128 ; echo'
+
+
+shred(){
+	shred -uzvn3
+}
+
+moon(){
+	curl https://wttr.in/moon
+}
+
+weather(){
+	curl https://wttr.in
+}
 
 ## using bluetooth
 bluetooth() {
@@ -121,6 +133,26 @@ bluetooth() {
 	fi
 }
 
+# pomodoro
+pomo(){
+	wseconds=${1:-25}*60;
+	pseconds=${2:-wseconds/300}*60;
+
+	while true; do
+		date1=$((`date +%s` + $wseconds));
+		while [ "$date1" -ge `date +%s` ]; do
+		    echo -ne "$(date -u --date @$(($date1 - `date +%s` )) +%H:%M:%S)\r";
+		done
+		notify-send "Break" "Stop working for 5 minutes!!";
+		read -n1 -rsp $'Press any key to continue or Ctrl+C to exit...\n';
+		date2=$((`date +%s` + $pseconds));
+		while [ "$date2" -ge `date +%s` ]; do
+		    echo -ne "$(date -u --date @$(($date2 - `date +%s` )) +%H:%M:%S)\r";
+		done
+		notify-send "Work" "Time to get back to work";
+		read -n1 -rsp $'Press any key to continue or Ctrl+C to exit...\n';
+	done
+}
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -132,3 +164,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
