@@ -94,6 +94,7 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 #alias ll='ls -l'
 alias la='ls -A'
 #alias l='ls -CF'
+alias music='ncspot'
 alias sx=startx
 alias love='neofetch --backend w3m --source ~/Pictures/love.jpeg'
 alias password16='date +%s | sha256sum | base64 | head -c 16 ; echo'
@@ -166,3 +167,4 @@ if ! shopt -oq posix; then
 fi
 
 
+. "$HOME/.cargo/env"
