@@ -10,8 +10,9 @@ exec --no-startup-id hsetroot -center ~/Pictures/wallpaper.png
 exec --no-startup-id xsettingsd &
 exec --no-startup-id nitrogen --restore
 #exec --no-startup-id picom -b --experimental-backends
-exec --no-startup-id compton
+exec --no-startup-id compton --config ~/.config/compton/compton.conf
 # Mouse+$super to drag floating windows to their wanted position
+exec --no-startup-id ~/.screenlayout/monitor_plugged_in.sh
 floating_modifier $super
 
 # start a terminal
