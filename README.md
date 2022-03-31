@@ -1,5 +1,5 @@
 # Debian dotfiles
-rishi on moon look at earthrise on Debian 11 (bullseye) on ThinkPad P1 Gen 2
+rishi at moon look at grand canyon on Debian 11 (bullseye) on ThinkPad P1 Gen 2
 
 # Install
 	git clone https://github.com/RishiKakade/dotfiles/ && cp -a dotfiles./ ~
