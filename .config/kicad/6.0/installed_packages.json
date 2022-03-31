@@ -1,0 +1,218 @@
+{
+    "packages": [
+        {
+            "current_version": "1.0.4",
+            "install_timestamp": 1647910469,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "easyw@katamail.com"
+                    },
+                    "name": "easyw"
+                },
+                "description": "A suite of kicad pcbnew action plugin tools",
+                "description_full": "Annular Ring Checker, Snap Selected Footprint(s) to Grid, Fabrication Footprint Position, Move Selected Drawings to chosen Layer, Export pcb technical layers to DXF, Checking 3D missing models",
+                "identifier": "com.github.easyw.kicad-action-tools",
+                "license": "GPL-2.0",
+                "name": "pcb-action-tools",
+                "resources": {
+                    "Github": "https://github.com/easyw/kicad-action-tools",
+                    "Readme": "https://github.com/easyw/kicad-action-tools/blob/master/README.md"
+                },
+                "tags": [
+                    "annular",
+                    "pcbnew",
+                    "dxf",
+                    "grid",
+                    "mcad"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "3acda65eda6dab6f21f8a30cd7ff3a628b4393d6f01a2a5df6bb126a81e3e468",
+                        "download_size": 1035370,
+                        "download_url": "https://github.com/easyw/kicad-action-tools/releases/download/v1.0.4/pcb-action-tools_v1.0.4_pcm.zip",
+                        "install_size": 1236317,
+                        "kicad_version": "5.1",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.0.4"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.1",
+            "install_timestamp": 1647910468,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://mitxela.com"
+                    },
+                    "name": "mitxela"
+                },
+                "description": "A subdivision- and/or native arc-based track rounding plugin.",
+                "description_full": "Algorithmically smooth tracks in a predictable manner. Useful for flex PCBs, or just because it looks cool.",
+                "identifier": "com.github.mitxela.kicad-round-tracks",
+                "license": "Apache-2.0",
+                "name": "Round Tracks",
+                "resources": {
+                    "homepage": "https://github.com/mitxela/kicad-round-tracks"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "3ac65b3be5f1acd3e56583846d49b19ff425ed0a03154c775f4d655cd30fbdcc",
+                        "download_size": 14742,
+                        "download_url": "https://github.com/mitxela/kicad-round-tracks/releases/download/1.1/kicad-round-tracks-1.1.zip",
+                        "install_size": 29430,
+                        "kicad_version": "6.0",
+                        "platforms": [
+                            "linux",
+                            "macos",
+                            "windows"
+                        ],
+                        "status": "stable",
+                        "version": "1.1"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0",
+            "install_timestamp": 1647910469,
+            "package": {
+                "author": {
+                    "contact": {
+                        "web": "https://github.com/wykys"
+                    },
+                    "name": "Jan Vykydal"
+                },
+                "description": "Designed by wykys, Inspired by One Dark",
+                "description_full": "Designed by wykys, Inspired by One Dark",
+                "identifier": "com.github.pointhi.kicad-color-schemes.wdark",
+                "license": "CC0-1.0",
+                "maintainer": {
+                    "contact": {
+                        "web": "https://github.com/pointhi/kicad-color-schemes/"
+                    },
+                    "name": "Thomas Pointhuber"
+                },
+                "name": "wDark Theme",
+                "resources": {
+                    "Github": "https://github.com/pointhi/kicad-color-schemes"
+                },
+                "type": "colortheme",
+                "versions": [
+                    {
+                        "download_sha256": "9e58f7e6032dd40221dc80817dc992f233eba1858d590104c3445d41abcc136a",
+                        "download_size": 4289,
+                        "download_url": "https://github.com/pointhi/kicad-color-schemes/releases/download/2021-12-05/com.github.pointhi.kicad-color-schemes.wdark_v1.0_pcm.zip",
+                        "install_size": 5490,
+                        "kicad_version": "5.99",
+                        "status": "stable",
+                        "version": "1.0"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0.3",
+            "install_timestamp": 1647910467,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "description": "Automation for KiCAD",
+                "description_full": "KiKit is a Python library, KiCAD plugin and a CLI tool to automate several tasks in a standard KiCAD workflow like:\n• panelization of both, regular and oddly shaped, boards\n• automated exporting manufacturing data based on manufacturer presets\n• multi-board project in KiCAD\n• building board presentation pages\n• making 3D-printed solder stencils\n• and more",
+                "identifier": "com.github.yaqwsx.kikit",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "name": "KiKit",
+                "resources": {
+                    "homepage": "https://github.com/yaqwsx/KiKit"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "8219e654e7592c74acb23bd877ff305d28f67b64eda7c14993e189f71304813c",
+                        "download_size": 9535,
+                        "download_url": "https://github.com/yaqwsx/KiKit/releases/download/v1.0.3/pcm-kikit.zip",
+                        "install_size": 10535,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.3"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "1.0.3",
+            "install_timestamp": 1647910469,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "description": "A footprint and schematic library for KiKit annotations.",
+                "description_full": "KiKit uses these symbols a footprints to annotate your boards (e.g., to place a tab in a panel).",
+                "identifier": "com.github.yaqwsx.kikit-library",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/yaqwsx",
+                        "twitter": "https://twitter.com/yaqwsx_cz",
+                        "web": "https://honzamrazek.cz"
+                    },
+                    "name": "Jan Mrázek"
+                },
+                "name": "KiKit Library",
+                "resources": {
+                    "homepage": "https://github.com/yaqwsx/KiKit"
+                },
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "cfe22ce85cdc88f5dc61eae92578d2f4ae64e8a03018f7d9bd9deabcdf636b98",
+                        "download_size": 11224,
+                        "download_url": "https://github.com/yaqwsx/KiKit/releases/download/v1.0.3/pcm-kikit-lib.zip",
+                        "install_size": 14938,
+                        "kicad_version": "6.0",
+                        "status": "stable",
+                        "version": "1.0.3"
+                    }
+                ]
+            },
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}

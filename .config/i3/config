@@ -3,44 +3,51 @@ set $super Mod4
 set $alt Mod1
 
 # set font
-font pango: Noto Sans 8
+font pango: Noto Sans 12
 
-# Use Mouse+$super to drag floating windows to their wanted position
-floating_modifier $super
-
-#autostart
+# autostart
 exec --no-startup-id hsetroot -center ~/Pictures/wallpaper.png
 exec --no-startup-id xsettingsd &
-exec --no-startup-id compton -b
 exec --no-startup-id nitrogen --restore
+#exec --no-startup-id picom -b --experimental-backends
+exec --no-startup-id compton
+# Mouse+$super to drag floating windows to their wanted position
+floating_modifier $super
+
 # start a terminal
 bindsym $super+Return exec urxvt
 
-# start dmenu (a program launcher)
-bindsym $super+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=12'"
-#bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
+# lock screen after 15 mins of inactivity
+bindsym $super+p exec /home/rkakade/.scripts/lockscreen.sh
+exec xautolock -time 15 -locker '~/.scripts/lockscreen.sh' &
 
-# common apps keybinds
-#bindsym Print exec scrot 'Cheese_%a-%d%b%y_%H.%M.png' -e 'viewnior ~/$f'
-bindsym $alt+l exec i3lock -i ~/Pictures/wallpaper.png
+# keybindings for apps
 bindsym $super+Shift+w exec firefox
-#bindsym $super+Shift+f exec thunar;workspace 3;focus
-#bindsym $super+Shift+g exec geany
+bindsym $super+Shift+e exec urxvt -e ranger
+bindsym Print exec gnome-screenshot -i
+
+# program launcher 
+#bindsym $super+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=12'"
+bindsym $super+d exec --no-startup-id ~/.config/rofi/bin/launcher_text
+
+# kill focused window
+bindsym $super+q kill
+#bindsym $alt+F4 kill
 
 #change volume
 bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer -q set Master 5%-
 bindsym XF86AudioMute exec amixer set Master toggle
 
+#change brightness
+bindsym XF86MonBrightnessUp exec brightnessctl set +2%
+bindsym XF86MonBrightnessDown exec brightnessctl set 2%-
+
 # music control
 bindsym XF86AudioNext exec mpc next
 bindsym XF86AudioPrev exec mpc prev
 bindsym XF86AudioPlay exec mpc toggle
 bindsym XF86AudioStop exec mpc stop
-
-# kill focused window
-bindsym $super+q kill
-#bindsym $alt+F4 kill
 
 # change focus
 bindsym $super+Left focus left
@@ -108,26 +115,33 @@ bindsym $super+Shift+8 move container to workspace 8
 bindsym $super+Shift+9 move container to workspace 9
 bindsym $super+Shift+0 move container to workspace 0
 
-# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+# restart i3 inplace (used to upgrade i3)
 bindsym $super+Shift+r restart
 
 # exit i3
-bindsym $super+Shift+q exec "i3-nagbar -t warning -m 'Really, exit?' -b 'Yes' 'i3-msg exit'"
+bindsym $super+Shift+q exec "i3-nagbar -t warning -m 'Are you sure you want to exit i3?' -b 'Yes' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
-#mode "resize" {
-#        bindsym Left resize shrink width 5 px or 5 ppt
-#        bindsym Down resize grow height 5 px or 5 ppt
-#        bindsym Up resize shrink height 5 px or 5 ppt
-#        bindsym Right resize grow width 5 px or 5 ppt
-#        bindsym Return mode "default"
-#}
-#bindsym $super+r mode "resize"
+mode "resize" {
+        bindsym Left resize shrink width 5 px or 5 ppt
+        bindsym Down resize grow height 5 px or 5 ppt
+        bindsym Up resize shrink height 5 px or 5 ppt
+        bindsym Right resize grow width 5 px or 5 ppt
+        bindsym Return mode "default"
+}
+bindsym $super+r mode "resize"
 
 # panel
 bar {
+
+        i3bar_command i3bar --transparency
+
+        #hide bar by default, show when super key is pressed
+        hidden_state    hide
+        mode            hide
+
         colors {
-        background #2f343f
+        background #00000000
         statusline #2f343f
         separator #4b5262
 
@@ -135,11 +149,29 @@ bar {
         focused_workspace       #2f343f #bf616a #d8dee8
         active_workspace        #2f343f #2f343f #d8dee8
         inactive_workspace      #2f343f #2f343f #d8dee8
-        urgent_workspacei       #2f343f #ebcb8b #2f343f
-
+        urgent_workspace        #2f343f #ebcb8b #2f343f
     }
         status_command i3status
 }
+
+#bar {
+#
+#i3bar_command i3bar --transparency
+#status_command i3status
+#colors {
+#background #00000000
+#statusline #ffffff
+#separator #666666
+#
+#focused_workspace #4c7899 #285577 #ffffff
+#active_workspace #333333 #5f676a #ffffff
+#inactive_workspace #333333 #222222 #888888
+#urgent_workspace #2f343a #900000 #ffffff
+#binding_mode #2f343a #900000 #ffffff
+#}
+#}
+
+
 
 # window rules, you can find the window class using xprop
 for_window [class=".*"] border pixel 0

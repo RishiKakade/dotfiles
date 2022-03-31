@@ -1,0 +1,1066 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'webtorrent-cli', '-g' ]
+1 info using npm@7.5.2
+2 info using node@v12.22.5
+3 timing config:load:defaults Completed in 1ms
+4 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 1ms
+5 timing config:load:builtin Completed in 2ms
+6 timing config:load:cli Completed in 1ms
+7 timing config:load:env Completed in 1ms
+8 timing config:load:project Completed in 0ms
+9 timing config:load:file:/home/rkakade/.npmrc Completed in 0ms
+10 timing config:load:user Completed in 0ms
+11 timing config:load:file:/etc/npmrc Completed in 0ms
+12 timing config:load:global Completed in 1ms
+13 timing config:load:cafile Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:setUserAgent Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 7ms
+18 verbose npm-session dfd977167c448be2
+19 timing npm:load Completed in 13ms
+20 timing arborist:ctor Completed in 0ms
+21 timing idealTree:init Completed in 6ms
+22 timing idealTree:userRequests Completed in 1ms
+23 silly idealTree buildDeps
+24 silly fetch manifest webtorrent-cli@*
+25 http fetch GET 200 https://registry.npmjs.org/webtorrent-cli 558ms
+26 silly placeDep ROOT webtorrent-cli@4.0.2 OK for:  want: *
+27 silly fetch manifest airplay-js@^0.3.0
+28 silly fetch manifest chromecasts@^1.10.0
+29 silly fetch manifest nodebmc@0.0.7
+30 silly fetch manifest chalk@^4.1.1
+31 silly fetch manifest common-tags@^1.8.0
+32 silly fetch manifest create-torrent@^5.0.0
+33 silly fetch manifest dlnacasts@^0.1.0
+34 silly fetch manifest ecstatic@^4.1.4
+35 silly fetch manifest memory-chunk-store@^1.3.5
+36 silly fetch manifest mime@^2.5.2
+37 silly fetch manifest moment@^2.29.1
+38 silly fetch manifest network-address@^1.1.2
+39 silly fetch manifest open@^8.2.1
+40 silly fetch manifest parse-torrent@^9.1.3
+41 silly fetch manifest prettier-bytes@^1.0.4
+42 silly fetch manifest vlc-command@^1.2.0
+43 silly fetch manifest yargs@^17.0.1
+44 silly fetch manifest webtorrent@^1.3.2
+45 silly fetch manifest winreg@^1.2.4
+46 http fetch GET 200 https://registry.npmjs.org/chalk 194ms
+47 http fetch GET 200 https://registry.npmjs.org/common-tags 200ms
+48 http fetch GET 200 https://registry.npmjs.org/open 206ms
+49 http fetch GET 200 https://registry.npmjs.org/mime 239ms
+50 http fetch GET 200 https://registry.npmjs.org/moment 243ms
+51 http fetch GET 200 https://registry.npmjs.org/dlnacasts 288ms
+52 http fetch GET 200 https://registry.npmjs.org/yargs 289ms
+53 http fetch GET 200 https://registry.npmjs.org/parse-torrent 350ms
+54 http fetch GET 200 https://registry.npmjs.org/airplay-js 381ms
+55 http fetch GET 200 https://registry.npmjs.org/chromecasts 449ms
+56 http fetch GET 200 https://registry.npmjs.org/create-torrent 491ms
+57 http fetch GET 200 https://registry.npmjs.org/memory-chunk-store 512ms
+58 http fetch GET 200 https://registry.npmjs.org/nodebmc 527ms
+59 http fetch GET 200 https://registry.npmjs.org/prettier-bytes 539ms
+60 http fetch GET 200 https://registry.npmjs.org/ecstatic 547ms
+61 http fetch GET 200 https://registry.npmjs.org/vlc-command 541ms
+62 http fetch GET 200 https://registry.npmjs.org/network-address 593ms
+63 http fetch GET 200 https://registry.npmjs.org/winreg 610ms
+64 http fetch GET 200 https://registry.npmjs.org/webtorrent 665ms
+65 timing idealTree:#root Completed in 1263ms
+66 silly placeDep node_modules/webtorrent-cli airplay-js@0.3.0 OK for: webtorrent-cli@4.0.2 want: ^0.3.0
+67 silly placeDep node_modules/webtorrent-cli chalk@4.1.2 OK for: webtorrent-cli@4.0.2 want: ^4.1.1
+68 silly placeDep node_modules/webtorrent-cli chromecasts@1.10.2 OK for: webtorrent-cli@4.0.2 want: ^1.10.0
+69 silly placeDep node_modules/webtorrent-cli common-tags@1.8.2 OK for: webtorrent-cli@4.0.2 want: ^1.8.0
+70 silly placeDep node_modules/webtorrent-cli create-torrent@5.0.1 OK for: webtorrent-cli@4.0.2 want: ^5.0.0
+71 silly placeDep node_modules/webtorrent-cli dlnacasts@0.1.0 OK for: webtorrent-cli@4.0.2 want: ^0.1.0
+72 silly placeDep node_modules/webtorrent-cli ecstatic@4.1.4 OK for: webtorrent-cli@4.0.2 want: ^4.1.4
+73 silly placeDep node_modules/webtorrent-cli memory-chunk-store@1.3.5 OK for: webtorrent-cli@4.0.2 want: ^1.3.5
+74 silly placeDep node_modules/webtorrent-cli mime@2.6.0 OK for: webtorrent-cli@4.0.2 want: ^2.5.2
+75 silly placeDep node_modules/webtorrent-cli moment@2.29.1 OK for: webtorrent-cli@4.0.2 want: ^2.29.1
+76 silly placeDep node_modules/webtorrent-cli network-address@1.1.2 OK for: webtorrent-cli@4.0.2 want: ^1.1.2
+77 silly placeDep node_modules/webtorrent-cli nodebmc@0.0.7 OK for: webtorrent-cli@4.0.2 want: 0.0.7
+78 silly placeDep node_modules/webtorrent-cli open@8.4.0 OK for: webtorrent-cli@4.0.2 want: ^8.2.1
+79 silly placeDep node_modules/webtorrent-cli parse-torrent@9.1.4 OK for: webtorrent-cli@4.0.2 want: ^9.1.3
+80 silly placeDep node_modules/webtorrent-cli prettier-bytes@1.0.4 OK for: webtorrent-cli@4.0.2 want: ^1.0.4
+81 silly placeDep node_modules/webtorrent-cli vlc-command@1.2.0 OK for: webtorrent-cli@4.0.2 want: ^1.2.0
+82 silly placeDep node_modules/webtorrent-cli webtorrent@1.7.1 OK for: webtorrent-cli@4.0.2 want: ^1.3.2
+83 silly placeDep node_modules/webtorrent-cli winreg@1.2.4 OK for: webtorrent-cli@4.0.2 want: ^1.2.4
+84 silly placeDep node_modules/webtorrent-cli yargs@17.3.1 OK for: webtorrent-cli@4.0.2 want: ^17.0.1
+85 silly fetch manifest mdns-js@0.5.0
+86 silly fetch manifest plist-with-patches@0.5.1
+87 silly fetch manifest ansi-styles@^4.1.0
+88 silly fetch manifest supports-color@^7.1.0
+89 silly fetch manifest node-ssdp@^2.2.0
+90 silly fetch manifest castv2-client@^1.1.0
+91 silly fetch manifest debug@^2.1.3
+92 silly fetch manifest dns-txt@^2.0.2
+93 silly fetch manifest mime@^1.3.4
+94 silly fetch manifest multicast-dns@^7.2.4
+95 silly fetch manifest simple-get@^2.0.0
+96 silly fetch manifest thunky@^0.1.0
+97 silly fetch manifest xml2js@^0.4.8
+98 silly fetch manifest bencode@^2.0.2
+99 silly fetch manifest block-stream2@^2.1.0
+100 silly fetch manifest filestream@^5.0.0
+101 silly fetch manifest is-file@^1.0.0
+102 silly fetch manifest junk@^3.1.0
+103 silly fetch manifest minimist@^1.2.5
+104 silly fetch manifest multistream@^4.1.0
+105 silly fetch manifest once@^1.4.0
+106 silly fetch manifest piece-length@^2.0.1
+107 silly fetch manifest queue-microtask@^1.2.3
+108 silly fetch manifest readable-stream@^3.6.0
+109 silly fetch manifest run-parallel@^1.2.0
+110 silly fetch manifest simple-sha1@^3.1.0
+111 silly fetch manifest node-ssdp@^2.7.1
+112 silly fetch manifest run-parallel@^1.1.6
+113 silly fetch manifest simple-get@^2.1.0
+114 silly fetch manifest upnp-mediarenderer-client@^1.2.2
+115 silly fetch manifest charset@^1.0.1
+116 silly fetch manifest he@^1.1.1
+117 silly fetch manifest minimist@^1.1.0
+118 silly fetch manifest on-finished@^2.3.0
+119 silly fetch manifest url-join@^4.0.0
+120 silly fetch manifest define-lazy-prop@^2.0.0
+121 silly fetch manifest is-docker@^2.1.1
+122 silly fetch manifest is-wsl@^2.2.0
+123 silly fetch manifest blob-to-buffer@^1.2.9
+124 silly fetch manifest get-stdin@^8.0.0
+125 silly fetch manifest magnet-uri@^6.2.0
+126 silly fetch manifest simple-get@^4.0.0
+127 silly fetch manifest utp-native@^2.5.3
+128 silly fetch manifest @webtorrent/http-node@^1.3.0
+129 silly fetch manifest addr-to-ip-port@^1.5.4
+130 silly fetch manifest bitfield@^4.0.0
+131 silly fetch manifest bittorrent-dht@^10.0.2
+132 silly fetch manifest bittorrent-protocol@^3.5.0
+133 silly fetch manifest cache-chunk-store@^3.2.2
+134 silly fetch manifest chrome-net@^3.3.4
+135 silly fetch manifest chunk-store-stream@^4.3.0
+136 silly fetch manifest cpus@^1.0.3
+137 silly fetch manifest debug@^4.3.3
+138 silly fetch manifest end-of-stream@^1.4.4
+139 silly fetch manifest escape-html@^1.0.3
+140 silly fetch manifest fs-chunk-store@^2.0.4
+141 silly fetch manifest immediate-chunk-store@^2.2.0
+142 silly fetch manifest load-ip-set@^2.2.1
+143 silly fetch manifest lt_donthave@^1.0.1
+144 silly fetch manifest mime@^3.0.0
+145 silly fetch manifest package-json-versionify@^1.0.4
+146 silly fetch manifest pump@^3.0.0
+147 silly fetch manifest random-iterate@^1.0.1
+148 silly fetch manifest randombytes@^2.1.0
+149 silly fetch manifest range-parser@^1.2.1
+150 silly fetch manifest render-media@^4.1.0
+151 silly fetch manifest run-parallel-limit@^1.1.0
+152 silly fetch manifest simple-concat@^1.0.1
+153 silly fetch manifest simple-peer@^9.11.0
+154 silly fetch manifest speed-limiter@^1.0.2
+155 silly fetch manifest speedometer@^1.1.0
+156 silly fetch manifest stream-to-blob@^2.0.1
+157 silly fetch manifest stream-to-blob-url@^3.0.2
+158 silly fetch manifest stream-with-known-length-to-buffer@^1.0.4
+159 silly fetch manifest torrent-discovery@^9.4.7
+160 silly fetch manifest torrent-piece@^2.0.1
+161 silly fetch manifest unordered-array-remove@^1.0.2
+162 silly fetch manifest ut_metadata@^3.5.2
+163 silly fetch manifest ut_pex@^3.0.2
+164 silly fetch manifest cliui@^7.0.2
+165 silly fetch manifest escalade@^3.1.1
+166 silly fetch manifest get-caller-file@^2.0.5
+167 silly fetch manifest require-directory@^2.1.1
+168 silly fetch manifest string-width@^4.2.3
+169 silly fetch manifest y18n@^5.0.5
+170 silly fetch manifest yargs-parser@^21.0.0
+171 http fetch GET 200 https://registry.npmjs.org/ansi-styles 111ms
+172 http fetch GET 200 https://registry.npmjs.org/dns-txt 105ms
+173 http fetch GET 200 https://registry.npmjs.org/thunky 119ms
+174 http fetch GET 200 https://registry.npmjs.org/debug 125ms
+175 http fetch GET 200 https://registry.npmjs.org/xml2js 124ms
+176 http fetch GET 200 https://registry.npmjs.org/multicast-dns 126ms
+177 http fetch GET 200 https://registry.npmjs.org/simple-get 125ms
+178 http fetch GET 200 https://registry.npmjs.org/supports-color 135ms
+179 http fetch GET 200 https://registry.npmjs.org/minimist 170ms
+180 http fetch GET 200 https://registry.npmjs.org/junk 172ms
+181 http fetch GET 200 https://registry.npmjs.org/once 173ms
+182 http fetch GET 200 https://registry.npmjs.org/multistream 183ms
+183 http fetch GET 200 https://registry.npmjs.org/queue-microtask 189ms
+184 http fetch GET 200 https://registry.npmjs.org/readable-stream 206ms
+185 http fetch GET 200 https://registry.npmjs.org/run-parallel 234ms
+186 http fetch GET 200 https://registry.npmjs.org/is-file 247ms
+187 http fetch GET 200 https://registry.npmjs.org/charset 274ms
+188 http fetch GET 200 https://registry.npmjs.org/he 274ms
+189 http fetch GET 200 https://registry.npmjs.org/url-join 308ms
+190 http fetch GET 200 https://registry.npmjs.org/upnp-mediarenderer-client 313ms
+191 http fetch GET 200 https://registry.npmjs.org/on-finished 336ms
+192 http fetch GET 200 https://registry.npmjs.org/define-lazy-prop 351ms
+193 http fetch GET 200 https://registry.npmjs.org/is-docker 373ms
+194 http fetch GET 200 https://registry.npmjs.org/is-wsl 376ms
+195 http fetch GET 200 https://registry.npmjs.org/node-ssdp 401ms
+196 http fetch GET 200 https://registry.npmjs.org/mdns-js 420ms
+197 http fetch GET 200 https://registry.npmjs.org/plist-with-patches 420ms
+198 http fetch GET 200 https://registry.npmjs.org/filestream 419ms
+199 http fetch GET 200 https://registry.npmjs.org/get-stdin 403ms
+200 http fetch GET 200 https://registry.npmjs.org/block-stream2 425ms
+201 http fetch GET 200 https://registry.npmjs.org/bencode 442ms
+202 http fetch GET 200 https://registry.npmjs.org/blob-to-buffer 453ms
+203 http fetch GET 200 https://registry.npmjs.org/piece-length 478ms
+204 http fetch GET 200 https://registry.npmjs.org/simple-sha1 509ms
+205 http fetch GET 200 https://registry.npmjs.org/castv2-client 626ms
+206 http fetch GET 200 https://registry.npmjs.org/cpus 610ms
+207 http fetch GET 200 https://registry.npmjs.org/escape-html 655ms
+208 http fetch GET 200 https://registry.npmjs.org/magnet-uri 695ms
+209 http fetch GET 200 https://registry.npmjs.org/addr-to-ip-port 765ms
+210 http fetch GET 200 https://registry.npmjs.org/bittorrent-protocol 767ms
+211 http fetch GET 200 https://registry.npmjs.org/bittorrent-dht 769ms
+212 http fetch GET 200 https://registry.npmjs.org/utp-native 774ms
+213 http fetch GET 200 https://registry.npmjs.org/end-of-stream 765ms
+214 http fetch GET 200 https://registry.npmjs.org/cache-chunk-store 774ms
+215 http fetch GET 200 https://registry.npmjs.org/chrome-net 772ms
+216 http fetch GET 200 https://registry.npmjs.org/chunk-store-stream 771ms
+217 http fetch GET 200 https://registry.npmjs.org/fs-chunk-store 775ms
+218 http fetch GET 200 https://registry.npmjs.org/pump 778ms
+219 http fetch GET 200 https://registry.npmjs.org/randombytes 794ms
+220 http fetch GET 200 https://registry.npmjs.org/simple-concat 797ms
+221 http fetch GET 200 https://registry.npmjs.org/range-parser 804ms
+222 http fetch GET 200 https://registry.npmjs.org/run-parallel-limit 816ms
+223 http fetch GET 200 https://registry.npmjs.org/speedometer 1036ms
+224 http fetch GET 200 https://registry.npmjs.org/immediate-chunk-store 1045ms
+225 http fetch GET 200 https://registry.npmjs.org/load-ip-set 1060ms
+226 http fetch GET 200 https://registry.npmjs.org/lt_donthave 1061ms
+227 http fetch GET 200 https://registry.npmjs.org/package-json-versionify 1074ms
+228 http fetch GET 200 https://registry.npmjs.org/render-media 1086ms
+229 http fetch GET 200 https://registry.npmjs.org/speed-limiter 1153ms
+230 http fetch GET 200 https://registry.npmjs.org/simple-peer 1169ms
+231 http fetch GET 200 https://registry.npmjs.org/unordered-array-remove 1201ms
+232 http fetch GET 200 https://registry.npmjs.org/@webtorrent%2fhttp-node 1231ms
+233 http fetch GET 200 https://registry.npmjs.org/stream-to-blob 1209ms
+234 http fetch GET 200 https://registry.npmjs.org/ut_metadata 1203ms
+235 http fetch GET 200 https://registry.npmjs.org/random-iterate 1220ms
+236 http fetch GET 200 https://registry.npmjs.org/cliui 1204ms
+237 http fetch GET 200 https://registry.npmjs.org/require-directory 1223ms
+238 http fetch GET 200 https://registry.npmjs.org/escalade 1225ms
+239 http fetch GET 200 https://registry.npmjs.org/get-caller-file 1229ms
+240 http fetch GET 200 https://registry.npmjs.org/yargs-parser 1233ms
+241 http fetch GET 200 https://registry.npmjs.org/y18n 1259ms
+242 http fetch GET 200 https://registry.npmjs.org/bitfield 1361ms
+243 http fetch GET 200 https://registry.npmjs.org/stream-to-blob-url 1340ms
+244 http fetch GET 200 https://registry.npmjs.org/stream-with-known-length-to-buffer 1375ms
+245 http fetch GET 200 https://registry.npmjs.org/torrent-piece 1374ms
+246 http fetch GET 200 https://registry.npmjs.org/torrent-discovery 1377ms
+247 http fetch GET 200 https://registry.npmjs.org/string-width 1373ms
+248 http fetch GET 200 https://registry.npmjs.org/ut_pex 1466ms
+249 timing idealTree:node_modules/webtorrent-cli Completed in 1567ms
+250 silly placeDep node_modules/webtorrent-cli mdns-js@0.5.0 OK for: airplay-js@0.3.0 want: 0.5.0
+251 silly placeDep node_modules/webtorrent-cli plist-with-patches@0.5.1 OK for: airplay-js@0.3.0 want: 0.5.1
+252 silly fetch manifest debug@^2.1.1
+253 silly fetch manifest mdns-js-packet@~0.2.0
+254 silly fetch manifest semver@~5.1.0
+255 silly fetch manifest xmlbuilder@0.4.x
+256 silly fetch manifest xmldom@0.1.x
+257 http fetch GET 200 https://registry.npmjs.org/xmldom 82ms
+258 http fetch GET 200 https://registry.npmjs.org/semver 93ms
+259 http fetch GET 200 https://registry.npmjs.org/xmlbuilder 96ms
+260 http fetch GET 200 https://registry.npmjs.org/mdns-js-packet 455ms
+261 timing idealTree:node_modules/webtorrent-cli/node_modules/airplay-js Completed in 464ms
+262 silly placeDep node_modules/webtorrent-cli ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+263 silly placeDep node_modules/webtorrent-cli supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+264 silly fetch manifest color-convert@^2.0.1
+265 silly fetch manifest has-flag@^4.0.0
+266 http fetch GET 200 https://registry.npmjs.org/color-convert 54ms
+267 http fetch GET 200 https://registry.npmjs.org/has-flag 55ms
+268 timing idealTree:node_modules/webtorrent-cli/node_modules/chalk Completed in 58ms
+269 silly placeDep node_modules/webtorrent-cli color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+270 silly fetch manifest color-name@~1.1.4
+271 http fetch GET 200 https://registry.npmjs.org/color-name 51ms
+272 timing idealTree:node_modules/webtorrent-cli/node_modules/ansi-styles Completed in 62ms
+273 silly placeDep node_modules/webtorrent-cli castv2-client@1.2.0 OK for: chromecasts@1.10.2 want: ^1.1.0
+274 silly placeDep node_modules/webtorrent-cli debug@2.6.9 OK for: chromecasts@1.10.2 want: ^2.1.3
+275 silly placeDep node_modules/webtorrent-cli dns-txt@2.0.2 OK for: chromecasts@1.10.2 want: ^2.0.2
+276 silly placeDep node_modules/webtorrent-cli/node_modules/chromecasts mime@1.6.0 OK for: chromecasts@1.10.2 want: ^1.3.4
+277 silly placeDep node_modules/webtorrent-cli multicast-dns@7.2.4 OK for: chromecasts@1.10.2 want: ^7.2.4
+278 silly placeDep node_modules/webtorrent-cli node-ssdp@2.9.1 OK for: chromecasts@1.10.2 want: ^2.2.0
+279 silly placeDep node_modules/webtorrent-cli simple-get@2.8.1 OK for: chromecasts@1.10.2 want: ^2.0.0
+280 silly placeDep node_modules/webtorrent-cli thunky@0.1.0 OK for: chromecasts@1.10.2 want: ^0.1.0
+281 silly placeDep node_modules/webtorrent-cli xml2js@0.4.23 OK for: chromecasts@1.10.2 want: ^0.4.8
+282 silly fetch manifest castv2@~0.1.4
+283 silly fetch manifest ms@2.0.0
+284 silly fetch manifest buffer-indexof@^1.0.0
+285 silly fetch manifest dns-packet@^5.2.2
+286 silly fetch manifest thunky@^1.0.2
+287 silly fetch manifest ip@^1.0.1
+288 silly fetch manifest decompress-response@^3.3.0
+289 silly fetch manifest once@^1.3.1
+290 silly fetch manifest simple-concat@^1.0.0
+291 silly fetch manifest sax@>=0.6.0
+292 silly fetch manifest xmlbuilder@~11.0.0
+293 http fetch GET 200 https://registry.npmjs.org/ms 79ms
+294 http fetch GET 200 https://registry.npmjs.org/ip 78ms
+295 http fetch GET 200 https://registry.npmjs.org/buffer-indexof 87ms
+296 http fetch GET 200 https://registry.npmjs.org/decompress-response 81ms
+297 http fetch GET 200 https://registry.npmjs.org/dns-packet 221ms
+298 http fetch GET 200 https://registry.npmjs.org/sax 383ms
+299 http fetch GET 200 https://registry.npmjs.org/castv2 395ms
+300 timing idealTree:node_modules/webtorrent-cli/node_modules/chromecasts Completed in 405ms
+301 silly placeDep node_modules/webtorrent-cli castv2@0.1.10 OK for: castv2-client@1.2.0 want: ~0.1.4
+302 silly fetch manifest debug@^4.1.1
+303 silly fetch manifest protobufjs@^6.8.8
+304 http fetch GET 200 https://registry.npmjs.org/protobufjs 53ms
+305 timing idealTree:node_modules/webtorrent-cli/node_modules/castv2-client Completed in 65ms
+306 silly placeDep node_modules/webtorrent-cli/node_modules/castv2 debug@4.3.3 OK for: castv2@0.1.10 want: ^4.1.1
+307 silly placeDep node_modules/webtorrent-cli protobufjs@6.11.2 OK for: castv2@0.1.10 want: ^6.8.8
+308 silly fetch manifest ms@2.1.2
+309 silly fetch manifest @protobufjs/aspromise@^1.1.2
+310 silly fetch manifest @protobufjs/base64@^1.1.2
+311 silly fetch manifest @protobufjs/codegen@^2.0.4
+312 silly fetch manifest @protobufjs/eventemitter@^1.1.0
+313 silly fetch manifest @protobufjs/fetch@^1.1.0
+314 silly fetch manifest @protobufjs/float@^1.0.2
+315 silly fetch manifest @protobufjs/inquire@^1.1.0
+316 silly fetch manifest @protobufjs/path@^1.1.2
+317 silly fetch manifest @protobufjs/pool@^1.1.0
+318 silly fetch manifest @protobufjs/utf8@^1.1.0
+319 silly fetch manifest @types/long@^4.0.1
+320 silly fetch manifest @types/node@>=13.7.0
+321 silly fetch manifest long@^4.0.0
+322 http fetch GET 200 https://registry.npmjs.org/@types%2flong 68ms
+323 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fbase64 80ms
+324 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2feventemitter 84ms
+325 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fcodegen 87ms
+326 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2finquire 120ms
+327 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2ffetch 124ms
+328 http fetch GET 200 https://registry.npmjs.org/long 116ms
+329 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2ffloat 127ms
+330 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2faspromise 136ms
+331 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fpath 127ms
+332 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2futf8 166ms
+333 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 165ms
+334 http fetch GET 200 https://registry.npmjs.org/@protobufjs%2fpool 520ms
+335 timing idealTree:node_modules/webtorrent-cli/node_modules/castv2 Completed in 545ms
+336 silly placeDep node_modules/webtorrent-cli color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+337 timing idealTree:node_modules/webtorrent-cli/node_modules/color-convert Completed in 3ms
+338 timing idealTree:node_modules/webtorrent-cli/node_modules/color-name Completed in 0ms
+339 timing idealTree:node_modules/webtorrent-cli/node_modules/common-tags Completed in 0ms
+340 silly placeDep node_modules/webtorrent-cli bencode@2.0.2 OK for: create-torrent@5.0.1 want: ^2.0.2
+341 silly placeDep node_modules/webtorrent-cli block-stream2@2.1.0 OK for: create-torrent@5.0.1 want: ^2.1.0
+342 silly placeDep node_modules/webtorrent-cli filestream@5.0.0 OK for: create-torrent@5.0.1 want: ^5.0.0
+343 silly placeDep node_modules/webtorrent-cli is-file@1.0.0 OK for: create-torrent@5.0.1 want: ^1.0.0
+344 silly placeDep node_modules/webtorrent-cli junk@3.1.0 OK for: create-torrent@5.0.1 want: ^3.1.0
+345 silly placeDep node_modules/webtorrent-cli minimist@1.2.5 OK for: create-torrent@5.0.1 want: ^1.2.5
+346 silly placeDep node_modules/webtorrent-cli multistream@4.1.0 OK for: create-torrent@5.0.1 want: ^4.1.0
+347 silly placeDep node_modules/webtorrent-cli once@1.4.0 OK for: create-torrent@5.0.1 want: ^1.4.0
+348 silly placeDep node_modules/webtorrent-cli piece-length@2.0.1 OK for: create-torrent@5.0.1 want: ^2.0.1
+349 silly placeDep node_modules/webtorrent-cli queue-microtask@1.2.3 OK for: create-torrent@5.0.1 want: ^1.2.3
+350 silly placeDep node_modules/webtorrent-cli readable-stream@3.6.0 OK for: create-torrent@5.0.1 want: ^3.6.0
+351 silly placeDep node_modules/webtorrent-cli run-parallel@1.2.0 OK for: create-torrent@5.0.1 want: ^1.2.0
+352 silly placeDep node_modules/webtorrent-cli simple-sha1@3.1.0 OK for: create-torrent@5.0.1 want: ^3.1.0
+353 silly fetch manifest typedarray-to-buffer@^3.0.0
+354 silly fetch manifest wrappy@1
+355 silly fetch manifest inherits@^2.0.3
+356 silly fetch manifest string_decoder@^1.1.1
+357 silly fetch manifest util-deprecate@^1.0.1
+358 silly fetch manifest rusha@^0.8.13
+359 http fetch GET 200 https://registry.npmjs.org/typedarray-to-buffer 72ms
+360 http fetch GET 200 https://registry.npmjs.org/wrappy 71ms
+361 http fetch GET 200 https://registry.npmjs.org/inherits 78ms
+362 http fetch GET 200 https://registry.npmjs.org/rusha 476ms
+363 http fetch GET 200 https://registry.npmjs.org/string_decoder 480ms
+364 http fetch GET 200 https://registry.npmjs.org/util-deprecate 480ms
+365 timing idealTree:node_modules/webtorrent-cli/node_modules/create-torrent Completed in 516ms
+366 timing idealTree:node_modules/webtorrent-cli/node_modules/bencode Completed in 0ms
+367 timing idealTree:node_modules/webtorrent-cli/node_modules/block-stream2 Completed in 0ms
+368 silly placeDep node_modules/webtorrent-cli ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+369 timing idealTree:node_modules/webtorrent-cli/node_modules/debug Completed in 2ms
+370 silly placeDep node_modules/webtorrent-cli/node_modules/dlnacasts mime@1.6.0 OK for: dlnacasts@0.1.0 want: ^1.3.4
+371 silly placeDep node_modules/webtorrent-cli upnp-mediarenderer-client@1.4.0 OK for: dlnacasts@0.1.0 want: ^1.2.2
+372 silly fetch manifest elementtree@^0.1.6
+373 silly fetch manifest upnp-device-client@^1.0.0
+374 http fetch GET 200 https://registry.npmjs.org/elementtree 500ms
+375 http fetch GET 200 https://registry.npmjs.org/upnp-device-client 503ms
+376 timing idealTree:node_modules/webtorrent-cli/node_modules/dlnacasts Completed in 514ms
+377 silly placeDep node_modules/webtorrent-cli buffer-indexof@1.1.1 OK for: dns-txt@2.0.2 want: ^1.0.0
+378 timing idealTree:node_modules/webtorrent-cli/node_modules/dns-txt Completed in 4ms
+379 timing idealTree:node_modules/webtorrent-cli/node_modules/buffer-indexof Completed in 0ms
+380 silly placeDep node_modules/webtorrent-cli charset@1.0.1 OK for: ecstatic@4.1.4 want: ^1.0.1
+381 silly placeDep node_modules/webtorrent-cli he@1.2.0 OK for: ecstatic@4.1.4 want: ^1.1.1
+382 silly placeDep node_modules/webtorrent-cli on-finished@2.3.0 OK for: ecstatic@4.1.4 want: ^2.3.0
+383 silly placeDep node_modules/webtorrent-cli url-join@4.0.1 OK for: ecstatic@4.1.4 want: ^4.0.0
+384 silly fetch manifest ee-first@1.1.1
+385 http fetch GET 200 https://registry.npmjs.org/ee-first 41ms
+386 timing idealTree:node_modules/webtorrent-cli/node_modules/ecstatic Completed in 57ms
+387 timing idealTree:node_modules/webtorrent-cli/node_modules/charset Completed in 0ms
+388 silly placeDep node_modules/webtorrent-cli typedarray-to-buffer@3.1.5 OK for: filestream@5.0.0 want: ^3.0.0
+389 silly fetch manifest is-typedarray@^1.0.0
+390 http fetch GET 200 https://registry.npmjs.org/is-typedarray 59ms
+391 timing idealTree:node_modules/webtorrent-cli/node_modules/filestream Completed in 67ms
+392 timing idealTree:node_modules/webtorrent-cli/node_modules/he Completed in 0ms
+393 timing idealTree:node_modules/webtorrent-cli/node_modules/is-file Completed in 0ms
+394 timing idealTree:node_modules/webtorrent-cli/node_modules/junk Completed in 0ms
+395 silly placeDep node_modules/webtorrent-cli mdns-js-packet@0.2.0 OK for: mdns-js@0.5.0 want: ~0.2.0
+396 silly placeDep node_modules/webtorrent-cli semver@5.1.1 OK for: mdns-js@0.5.0 want: ~5.1.0
+397 silly fetch manifest qap@^3.1.2
+398 http fetch GET 200 https://registry.npmjs.org/qap 136ms
+399 timing idealTree:node_modules/webtorrent-cli/node_modules/mdns-js Completed in 144ms
+400 silly placeDep node_modules/webtorrent-cli qap@3.3.1 OK for: mdns-js-packet@0.2.0 want: ^3.1.2
+401 timing idealTree:node_modules/webtorrent-cli/node_modules/mdns-js-packet Completed in 3ms
+402 timing idealTree:node_modules/webtorrent-cli/node_modules/memory-chunk-store Completed in 0ms
+403 timing idealTree:node_modules/webtorrent-cli/node_modules/mime Completed in 0ms
+404 timing idealTree:node_modules/webtorrent-cli/node_modules/minimist Completed in 0ms
+405 timing idealTree:node_modules/webtorrent-cli/node_modules/moment Completed in 0ms
+406 timing idealTree:node_modules/webtorrent-cli/node_modules/ms Completed in 0ms
+407 silly placeDep node_modules/webtorrent-cli dns-packet@5.3.1 OK for: multicast-dns@7.2.4 want: ^5.2.2
+408 silly placeDep node_modules/webtorrent-cli/node_modules/multicast-dns thunky@1.1.0 OK for: multicast-dns@7.2.4 want: ^1.0.2
+409 silly fetch manifest @leichtgewicht/ip-codec@^2.0.1
+410 http fetch GET 200 https://registry.npmjs.org/@leichtgewicht%2fip-codec 1301ms
+411 timing idealTree:node_modules/webtorrent-cli/node_modules/multicast-dns Completed in 1308ms
+412 silly placeDep node_modules/webtorrent-cli @leichtgewicht/ip-codec@2.0.3 OK for: dns-packet@5.3.1 want: ^2.0.1
+413 timing idealTree:node_modules/webtorrent-cli/node_modules/dns-packet Completed in 1ms
+414 timing idealTree:node_modules/webtorrent-cli/node_modules/@leichtgewicht/ip-codec Completed in 0ms
+415 timing idealTree:node_modules/webtorrent-cli/node_modules/multistream Completed in 0ms
+416 timing idealTree:node_modules/webtorrent-cli/node_modules/network-address Completed in 0ms
+417 silly placeDep node_modules/webtorrent-cli ip@1.1.5 OK for: node-ssdp@2.9.1 want: ^1.0.1
+418 timing idealTree:node_modules/webtorrent-cli/node_modules/node-ssdp Completed in 1ms
+419 timing idealTree:node_modules/webtorrent-cli/node_modules/ip Completed in 0ms
+420 timing idealTree:node_modules/webtorrent-cli/node_modules/nodebmc Completed in 0ms
+421 silly placeDep node_modules/webtorrent-cli ee-first@1.1.1 OK for: on-finished@2.3.0 want: 1.1.1
+422 timing idealTree:node_modules/webtorrent-cli/node_modules/on-finished Completed in 2ms
+423 timing idealTree:node_modules/webtorrent-cli/node_modules/ee-first Completed in 0ms
+424 silly placeDep node_modules/webtorrent-cli wrappy@1.0.2 OK for: once@1.4.0 want: 1
+425 timing idealTree:node_modules/webtorrent-cli/node_modules/once Completed in 1ms
+426 silly placeDep node_modules/webtorrent-cli define-lazy-prop@2.0.0 OK for: open@8.4.0 want: ^2.0.0
+427 silly placeDep node_modules/webtorrent-cli is-docker@2.2.1 OK for: open@8.4.0 want: ^2.1.1
+428 silly placeDep node_modules/webtorrent-cli is-wsl@2.2.0 OK for: open@8.4.0 want: ^2.2.0
+429 timing idealTree:node_modules/webtorrent-cli/node_modules/open Completed in 4ms
+430 timing idealTree:node_modules/webtorrent-cli/node_modules/define-lazy-prop Completed in 0ms
+431 timing idealTree:node_modules/webtorrent-cli/node_modules/is-docker Completed in 0ms
+432 timing idealTree:node_modules/webtorrent-cli/node_modules/is-wsl Completed in 0ms
+433 silly placeDep node_modules/webtorrent-cli blob-to-buffer@1.2.9 OK for: parse-torrent@9.1.4 want: ^1.2.9
+434 silly placeDep node_modules/webtorrent-cli get-stdin@8.0.0 OK for: parse-torrent@9.1.4 want: ^8.0.0
+435 silly placeDep node_modules/webtorrent-cli magnet-uri@6.2.0 OK for: parse-torrent@9.1.4 want: ^6.2.0
+436 silly placeDep node_modules/webtorrent-cli/node_modules/parse-torrent simple-get@4.0.0 OK for: parse-torrent@9.1.4 want: ^4.0.0
+437 silly fetch manifest bep53-range@^1.1.0
+438 silly fetch manifest thirty-two@^1.0.2
+439 silly fetch manifest decompress-response@^6.0.0
+440 http fetch GET 200 https://registry.npmjs.org/bep53-range 426ms
+441 http fetch GET 200 https://registry.npmjs.org/thirty-two 426ms
+442 timing idealTree:node_modules/webtorrent-cli/node_modules/parse-torrent Completed in 437ms
+443 timing idealTree:node_modules/webtorrent-cli/node_modules/blob-to-buffer Completed in 0ms
+444 timing idealTree:node_modules/webtorrent-cli/node_modules/get-stdin Completed in 0ms
+445 silly placeDep node_modules/webtorrent-cli bep53-range@1.1.1 OK for: magnet-uri@6.2.0 want: ^1.1.0
+446 silly placeDep node_modules/webtorrent-cli thirty-two@1.0.2 OK for: magnet-uri@6.2.0 want: ^1.0.2
+447 timing idealTree:node_modules/webtorrent-cli/node_modules/magnet-uri Completed in 5ms
+448 timing idealTree:node_modules/webtorrent-cli/node_modules/bep53-range Completed in 0ms
+449 timing idealTree:node_modules/webtorrent-cli/node_modules/piece-length Completed in 0ms
+450 silly placeDep node_modules/webtorrent-cli xmlbuilder@0.4.3 OK for: plist-with-patches@0.5.1 want: 0.4.x
+451 silly placeDep node_modules/webtorrent-cli xmldom@0.1.31 OK for: plist-with-patches@0.5.1 want: 0.1.x
+452 timing idealTree:node_modules/webtorrent-cli/node_modules/plist-with-patches Completed in 8ms
+453 timing idealTree:node_modules/webtorrent-cli/node_modules/prettier-bytes Completed in 0ms
+454 silly placeDep node_modules/webtorrent-cli @protobufjs/aspromise@1.1.2 OK for: protobufjs@6.11.2 want: ^1.1.2
+455 silly placeDep node_modules/webtorrent-cli @protobufjs/base64@1.1.2 OK for: protobufjs@6.11.2 want: ^1.1.2
+456 silly placeDep node_modules/webtorrent-cli @protobufjs/codegen@2.0.4 OK for: protobufjs@6.11.2 want: ^2.0.4
+457 silly placeDep node_modules/webtorrent-cli @protobufjs/eventemitter@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+458 silly placeDep node_modules/webtorrent-cli @protobufjs/fetch@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+459 silly placeDep node_modules/webtorrent-cli @protobufjs/float@1.0.2 OK for: protobufjs@6.11.2 want: ^1.0.2
+460 silly placeDep node_modules/webtorrent-cli @protobufjs/inquire@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+461 silly placeDep node_modules/webtorrent-cli @protobufjs/path@1.1.2 OK for: protobufjs@6.11.2 want: ^1.1.2
+462 silly placeDep node_modules/webtorrent-cli @protobufjs/pool@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+463 silly placeDep node_modules/webtorrent-cli @protobufjs/utf8@1.1.0 OK for: protobufjs@6.11.2 want: ^1.1.0
+464 silly placeDep node_modules/webtorrent-cli @types/long@4.0.1 OK for: protobufjs@6.11.2 want: ^4.0.1
+465 silly placeDep node_modules/webtorrent-cli @types/node@17.0.10 OK for: protobufjs@6.11.2 want: >=13.7.0
+466 silly placeDep node_modules/webtorrent-cli long@4.0.0 OK for: protobufjs@6.11.2 want: ^4.0.0
+467 timing idealTree:node_modules/webtorrent-cli/node_modules/protobufjs Completed in 13ms
+468 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/aspromise Completed in 0ms
+469 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/base64 Completed in 0ms
+470 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/codegen Completed in 0ms
+471 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/eventemitter Completed in 0ms
+472 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/fetch Completed in 0ms
+473 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/float Completed in 0ms
+474 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/inquire Completed in 0ms
+475 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/path Completed in 0ms
+476 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/pool Completed in 0ms
+477 timing idealTree:node_modules/webtorrent-cli/node_modules/@protobufjs/utf8 Completed in 0ms
+478 timing idealTree:node_modules/webtorrent-cli/node_modules/@types/long Completed in 0ms
+479 timing idealTree:node_modules/webtorrent-cli/node_modules/@types/node Completed in 0ms
+480 timing idealTree:node_modules/webtorrent-cli/node_modules/long Completed in 0ms
+481 timing idealTree:node_modules/webtorrent-cli/node_modules/qap Completed in 0ms
+482 timing idealTree:node_modules/webtorrent-cli/node_modules/queue-microtask Completed in 0ms
+483 silly placeDep node_modules/webtorrent-cli inherits@2.0.4 OK for: readable-stream@3.6.0 want: ^2.0.3
+484 silly placeDep node_modules/webtorrent-cli string_decoder@1.3.0 OK for: readable-stream@3.6.0 want: ^1.1.1
+485 silly placeDep node_modules/webtorrent-cli util-deprecate@1.0.2 OK for: readable-stream@3.6.0 want: ^1.0.1
+486 silly fetch manifest safe-buffer@~5.2.0
+487 http fetch GET 200 https://registry.npmjs.org/safe-buffer 50ms
+488 timing idealTree:node_modules/webtorrent-cli/node_modules/readable-stream Completed in 53ms
+489 timing idealTree:node_modules/webtorrent-cli/node_modules/inherits Completed in 0ms
+490 timing idealTree:node_modules/webtorrent-cli/node_modules/run-parallel Completed in 0ms
+491 timing idealTree:node_modules/webtorrent-cli/node_modules/semver Completed in 0ms
+492 silly placeDep node_modules/webtorrent-cli decompress-response@3.3.0 OK for: simple-get@2.8.1 want: ^3.3.0
+493 silly placeDep node_modules/webtorrent-cli simple-concat@1.0.1 OK for: simple-get@2.8.1 want: ^1.0.0
+494 silly fetch manifest mimic-response@^1.0.0
+495 http fetch GET 200 https://registry.npmjs.org/mimic-response 61ms
+496 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-get Completed in 70ms
+497 silly placeDep node_modules/webtorrent-cli mimic-response@1.0.1 OK for: decompress-response@3.3.0 want: ^1.0.0
+498 timing idealTree:node_modules/webtorrent-cli/node_modules/decompress-response Completed in 3ms
+499 timing idealTree:node_modules/webtorrent-cli/node_modules/mimic-response Completed in 0ms
+500 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-concat Completed in 0ms
+501 silly placeDep node_modules/webtorrent-cli rusha@0.8.14 OK for: simple-sha1@3.1.0 want: ^0.8.13
+502 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-sha1 Completed in 2ms
+503 timing idealTree:node_modules/webtorrent-cli/node_modules/rusha Completed in 0ms
+504 silly placeDep node_modules/webtorrent-cli safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+505 timing idealTree:node_modules/webtorrent-cli/node_modules/string_decoder Completed in 1ms
+506 timing idealTree:node_modules/webtorrent-cli/node_modules/safe-buffer Completed in 0ms
+507 silly placeDep node_modules/webtorrent-cli has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+508 timing idealTree:node_modules/webtorrent-cli/node_modules/supports-color Completed in 2ms
+509 timing idealTree:node_modules/webtorrent-cli/node_modules/has-flag Completed in 0ms
+510 timing idealTree:node_modules/webtorrent-cli/node_modules/thirty-two Completed in 0ms
+511 timing idealTree:node_modules/webtorrent-cli/node_modules/thunky Completed in 0ms
+512 silly placeDep node_modules/webtorrent-cli is-typedarray@1.0.0 OK for: typedarray-to-buffer@3.1.5 want: ^1.0.0
+513 timing idealTree:node_modules/webtorrent-cli/node_modules/typedarray-to-buffer Completed in 2ms
+514 timing idealTree:node_modules/webtorrent-cli/node_modules/is-typedarray Completed in 0ms
+515 silly placeDep node_modules/webtorrent-cli elementtree@0.1.7 OK for: upnp-mediarenderer-client@1.4.0 want: ^0.1.6
+516 silly placeDep node_modules/webtorrent-cli upnp-device-client@1.0.2 OK for: upnp-mediarenderer-client@1.4.0 want: ^1.0.0
+517 silly fetch manifest sax@1.1.4
+518 silly fetch manifest concat-stream@^1.4.8
+519 http fetch GET 200 https://registry.npmjs.org/concat-stream 49ms
+520 timing idealTree:node_modules/webtorrent-cli/node_modules/upnp-mediarenderer-client Completed in 60ms
+521 silly placeDep node_modules/webtorrent-cli sax@1.1.4 OK for: elementtree@0.1.7 want: 1.1.4
+522 timing idealTree:node_modules/webtorrent-cli/node_modules/elementtree Completed in 1ms
+523 timing idealTree:node_modules/webtorrent-cli/node_modules/sax Completed in 0ms
+524 silly placeDep node_modules/webtorrent-cli concat-stream@1.6.2 OK for: upnp-device-client@1.0.2 want: ^1.4.8
+525 silly fetch manifest buffer-from@^1.0.0
+526 silly fetch manifest readable-stream@^2.2.2
+527 silly fetch manifest typedarray@^0.0.6
+528 http fetch GET 200 https://registry.npmjs.org/typedarray 52ms
+529 http fetch GET 200 https://registry.npmjs.org/buffer-from 60ms
+530 timing idealTree:node_modules/webtorrent-cli/node_modules/upnp-device-client Completed in 63ms
+531 silly placeDep node_modules/webtorrent-cli buffer-from@1.1.2 OK for: concat-stream@1.6.2 want: ^1.0.0
+532 silly placeDep node_modules/webtorrent-cli/node_modules/concat-stream readable-stream@2.3.7 OK for: concat-stream@1.6.2 want: ^2.2.2
+533 silly placeDep node_modules/webtorrent-cli typedarray@0.0.6 OK for: concat-stream@1.6.2 want: ^0.0.6
+534 silly fetch manifest core-util-is@~1.0.0
+535 silly fetch manifest isarray@~1.0.0
+536 silly fetch manifest process-nextick-args@~2.0.0
+537 silly fetch manifest safe-buffer@~5.1.1
+538 silly fetch manifest string_decoder@~1.1.1
+539 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 52ms
+540 http fetch GET 200 https://registry.npmjs.org/isarray 57ms
+541 http fetch GET 200 https://registry.npmjs.org/core-util-is 83ms
+542 timing idealTree:node_modules/webtorrent-cli/node_modules/concat-stream Completed in 92ms
+543 timing idealTree:node_modules/webtorrent-cli/node_modules/buffer-from Completed in 0ms
+544 timing idealTree:node_modules/webtorrent-cli/node_modules/typedarray Completed in 0ms
+545 timing idealTree:node_modules/webtorrent-cli/node_modules/url-join Completed in 0ms
+546 timing idealTree:node_modules/webtorrent-cli/node_modules/util-deprecate Completed in 0ms
+547 timing idealTree:node_modules/webtorrent-cli/node_modules/vlc-command Completed in 0ms
+548 silly placeDep node_modules/webtorrent-cli @webtorrent/http-node@1.3.0 OK for: webtorrent@1.7.1 want: ^1.3.0
+549 silly placeDep node_modules/webtorrent-cli addr-to-ip-port@1.5.4 OK for: webtorrent@1.7.1 want: ^1.5.4
+550 silly placeDep node_modules/webtorrent-cli bitfield@4.0.0 OK for: webtorrent@1.7.1 want: ^4.0.0
+551 silly placeDep node_modules/webtorrent-cli bittorrent-dht@10.0.2 OK for: webtorrent@1.7.1 want: ^10.0.2
+552 silly placeDep node_modules/webtorrent-cli bittorrent-protocol@3.5.1 OK for: webtorrent@1.7.1 want: ^3.5.0
+553 silly placeDep node_modules/webtorrent-cli cache-chunk-store@3.2.2 OK for: webtorrent@1.7.1 want: ^3.2.2
+554 silly placeDep node_modules/webtorrent-cli chrome-net@3.3.4 OK for: webtorrent@1.7.1 want: ^3.3.4
+555 silly placeDep node_modules/webtorrent-cli chunk-store-stream@4.3.0 OK for: webtorrent@1.7.1 want: ^4.3.0
+556 silly placeDep node_modules/webtorrent-cli cpus@1.0.3 OK for: webtorrent@1.7.1 want: ^1.0.3
+557 silly placeDep node_modules/webtorrent-cli/node_modules/webtorrent debug@4.3.3 OK for: webtorrent@1.7.1 want: ^4.3.3
+558 silly placeDep node_modules/webtorrent-cli end-of-stream@1.4.4 OK for: webtorrent@1.7.1 want: ^1.4.4
+559 silly placeDep node_modules/webtorrent-cli escape-html@1.0.3 OK for: webtorrent@1.7.1 want: ^1.0.3
+560 silly placeDep node_modules/webtorrent-cli fs-chunk-store@2.0.4 OK for: webtorrent@1.7.1 want: ^2.0.4
+561 silly placeDep node_modules/webtorrent-cli immediate-chunk-store@2.2.0 OK for: webtorrent@1.7.1 want: ^2.2.0
+562 silly placeDep node_modules/webtorrent-cli load-ip-set@2.2.1 OK for: webtorrent@1.7.1 want: ^2.2.1
+563 silly placeDep node_modules/webtorrent-cli lt_donthave@1.0.1 OK for: webtorrent@1.7.1 want: ^1.0.1
+564 silly placeDep node_modules/webtorrent-cli/node_modules/webtorrent mime@3.0.0 OK for: webtorrent@1.7.1 want: ^3.0.0
+565 silly placeDep node_modules/webtorrent-cli package-json-versionify@1.0.4 OK for: webtorrent@1.7.1 want: ^1.0.4
+566 silly placeDep node_modules/webtorrent-cli pump@3.0.0 OK for: webtorrent@1.7.1 want: ^3.0.0
+567 silly placeDep node_modules/webtorrent-cli random-iterate@1.0.1 OK for: webtorrent@1.7.1 want: ^1.0.1
+568 silly placeDep node_modules/webtorrent-cli randombytes@2.1.0 OK for: webtorrent@1.7.1 want: ^2.1.0
+569 silly placeDep node_modules/webtorrent-cli range-parser@1.2.1 OK for: webtorrent@1.7.1 want: ^1.2.1
+570 silly placeDep node_modules/webtorrent-cli render-media@4.1.0 OK for: webtorrent@1.7.1 want: ^4.1.0
+571 silly placeDep node_modules/webtorrent-cli run-parallel-limit@1.1.0 OK for: webtorrent@1.7.1 want: ^1.1.0
+572 silly placeDep node_modules/webtorrent-cli/node_modules/webtorrent simple-get@4.0.0 OK for: webtorrent@1.7.1 want: ^4.0.0
+573 silly placeDep node_modules/webtorrent-cli simple-peer@9.11.0 OK for: webtorrent@1.7.1 want: ^9.11.0
+574 silly placeDep node_modules/webtorrent-cli speed-limiter@1.0.2 OK for: webtorrent@1.7.1 want: ^1.0.2
+575 silly placeDep node_modules/webtorrent-cli speedometer@1.1.0 OK for: webtorrent@1.7.1 want: ^1.1.0
+576 silly placeDep node_modules/webtorrent-cli stream-to-blob@2.0.1 OK for: webtorrent@1.7.1 want: ^2.0.1
+577 silly placeDep node_modules/webtorrent-cli stream-to-blob-url@3.0.2 OK for: webtorrent@1.7.1 want: ^3.0.2
+578 silly placeDep node_modules/webtorrent-cli stream-with-known-length-to-buffer@1.0.4 OK for: webtorrent@1.7.1 want: ^1.0.4
+579 silly placeDep node_modules/webtorrent-cli torrent-discovery@9.4.7 OK for: webtorrent@1.7.1 want: ^9.4.7
+580 silly placeDep node_modules/webtorrent-cli torrent-piece@2.0.1 OK for: webtorrent@1.7.1 want: ^2.0.1
+581 silly placeDep node_modules/webtorrent-cli unordered-array-remove@1.0.2 OK for: webtorrent@1.7.1 want: ^1.0.2
+582 silly placeDep node_modules/webtorrent-cli ut_metadata@3.5.2 OK for: webtorrent@1.7.1 want: ^3.5.2
+583 silly placeDep node_modules/webtorrent-cli ut_pex@3.0.2 OK for: webtorrent@1.7.1 want: ^3.0.2
+584 silly placeDep node_modules/webtorrent-cli utp-native@2.5.3 OK for: webtorrent@1.7.1 want: ^2.5.3
+585 silly fetch manifest freelist@^1.0.3
+586 silly fetch manifest http-parser-js@^0.4.3
+587 silly fetch manifest k-bucket@^5.0.0
+588 silly fetch manifest k-rpc@^5.0.0
+589 silly fetch manifest last-one-wins@^1.0.4
+590 silly fetch manifest lru@^3.1.0
+591 silly fetch manifest record-cache@^1.0.2
+592 silly fetch manifest rc4@^0.1.5
+593 silly fetch manifest random-access-file@^2.0.1
+594 silly fetch manifest rimraf@^3.0.0
+595 silly fetch manifest thunky@^1.0.1
+596 silly fetch manifest ip-set@^2.1.0
+597 silly fetch manifest netmask@^2.0.1
+598 silly fetch manifest split@^1.0.1
+599 silly fetch manifest debug@^4.2.0
+600 silly fetch manifest browserify-package-json@^1.0.0
+601 silly fetch manifest is-ascii@^1.0.0
+602 silly fetch manifest mediasource@^2.4.0
+603 silly fetch manifest videostream@^3.2.2
+604 silly fetch manifest buffer@^6.0.3
+605 silly fetch manifest debug@^4.3.1
+606 silly fetch manifest err-code@^3.0.1
+607 silly fetch manifest get-browser-rtc@^1.1.0
+608 silly fetch manifest limiter@^1.1.5
+609 silly fetch manifest streamx@^2.10.3
+610 silly fetch manifest bittorrent-tracker@^9.18.3
+611 silly fetch manifest bittorrent-lsd@^1.1.1
+612 silly fetch manifest debug@^4.3.2
+613 silly fetch manifest compact2string@^1.4.1
+614 silly fetch manifest string2compact@^1.3.2
+615 silly fetch manifest napi-macros@^2.0.0
+616 silly fetch manifest node-gyp-build@^4.2.0
+617 silly fetch manifest timeout-refresh@^1.0.0
+618 silly fetch manifest unordered-set@^2.0.1
+619 http fetch GET 200 https://registry.npmjs.org/rimraf 68ms
+620 http fetch GET 200 https://registry.npmjs.org/netmask 73ms
+621 http fetch GET 200 https://registry.npmjs.org/split 106ms
+622 http fetch GET 200 https://registry.npmjs.org/http-parser-js 116ms
+623 http fetch GET 200 https://registry.npmjs.org/k-rpc 406ms
+624 http fetch GET 200 https://registry.npmjs.org/random-access-file 403ms
+625 http fetch GET 200 https://registry.npmjs.org/rc4 404ms
+626 http fetch GET 200 https://registry.npmjs.org/k-bucket 409ms
+627 http fetch GET 200 https://registry.npmjs.org/freelist 412ms
+628 http fetch GET 200 https://registry.npmjs.org/lru 409ms
+629 http fetch GET 200 https://registry.npmjs.org/ip-set 405ms
+630 http fetch GET 200 https://registry.npmjs.org/record-cache 409ms
+631 http fetch GET 200 https://registry.npmjs.org/last-one-wins 410ms
+632 http fetch GET 200 https://registry.npmjs.org/browserify-package-json 406ms
+633 http fetch GET 200 https://registry.npmjs.org/buffer 404ms
+634 http fetch GET 200 https://registry.npmjs.org/err-code 446ms
+635 http fetch GET 200 https://registry.npmjs.org/limiter 446ms
+636 http fetch GET 200 https://registry.npmjs.org/mediasource 450ms
+637 http fetch GET 200 https://registry.npmjs.org/is-ascii 451ms
+638 http fetch GET 200 https://registry.npmjs.org/napi-macros 441ms
+639 http fetch GET 200 https://registry.npmjs.org/node-gyp-build 466ms
+640 http fetch GET 200 https://registry.npmjs.org/get-browser-rtc 797ms
+641 http fetch GET 200 https://registry.npmjs.org/videostream 801ms
+642 http fetch GET 200 https://registry.npmjs.org/streamx 799ms
+643 http fetch GET 200 https://registry.npmjs.org/bittorrent-lsd 794ms
+644 http fetch GET 200 https://registry.npmjs.org/unordered-set 812ms
+645 http fetch GET 200 https://registry.npmjs.org/timeout-refresh 818ms
+646 http fetch GET 200 https://registry.npmjs.org/compact2string 833ms
+647 http fetch GET 200 https://registry.npmjs.org/string2compact 995ms
+648 http fetch GET 200 https://registry.npmjs.org/bittorrent-tracker 1012ms
+649 timing idealTree:node_modules/webtorrent-cli/node_modules/webtorrent Completed in 1084ms
+650 silly placeDep node_modules/webtorrent-cli freelist@1.0.3 OK for: @webtorrent/http-node@1.3.0 want: ^1.0.3
+651 silly placeDep node_modules/webtorrent-cli http-parser-js@0.4.13 OK for: @webtorrent/http-node@1.3.0 want: ^0.4.3
+652 timing idealTree:node_modules/webtorrent-cli/node_modules/@webtorrent/http-node Completed in 5ms
+653 timing idealTree:node_modules/webtorrent-cli/node_modules/addr-to-ip-port Completed in 0ms
+654 timing idealTree:node_modules/webtorrent-cli/node_modules/bitfield Completed in 0ms
+655 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-dht debug@4.3.3 OK for: bittorrent-dht@10.0.2 want: ^4.1.1
+656 silly placeDep node_modules/webtorrent-cli k-bucket@5.1.0 OK for: bittorrent-dht@10.0.2 want: ^5.0.0
+657 silly placeDep node_modules/webtorrent-cli k-rpc@5.1.0 OK for: bittorrent-dht@10.0.2 want: ^5.0.0
+658 silly placeDep node_modules/webtorrent-cli last-one-wins@1.0.4 OK for: bittorrent-dht@10.0.2 want: ^1.0.4
+659 silly placeDep node_modules/webtorrent-cli lru@3.1.0 OK for: bittorrent-dht@10.0.2 want: ^3.1.0
+660 silly placeDep node_modules/webtorrent-cli record-cache@1.1.1 OK for: bittorrent-dht@10.0.2 want: ^1.0.2
+661 silly fetch manifest k-rpc-socket@^1.7.2
+662 http fetch GET 200 https://registry.npmjs.org/k-rpc-socket 348ms
+663 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-dht Completed in 358ms
+664 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-protocol debug@4.3.3 OK for: bittorrent-protocol@3.5.1 want: ^4.3.3
+665 silly placeDep node_modules/webtorrent-cli rc4@0.1.5 OK for: bittorrent-protocol@3.5.1 want: ^0.1.5
+666 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-protocol Completed in 5ms
+667 timing idealTree:node_modules/webtorrent-cli/node_modules/cache-chunk-store Completed in 0ms
+668 timing idealTree:node_modules/webtorrent-cli/node_modules/chrome-net Completed in 0ms
+669 timing idealTree:node_modules/webtorrent-cli/node_modules/chunk-store-stream Completed in 0ms
+670 timing idealTree:node_modules/webtorrent-cli/node_modules/cpus Completed in 1ms
+671 timing idealTree:node_modules/webtorrent-cli/node_modules/end-of-stream Completed in 0ms
+672 timing idealTree:node_modules/webtorrent-cli/node_modules/escape-html Completed in 0ms
+673 timing idealTree:node_modules/webtorrent-cli/node_modules/freelist Completed in 0ms
+674 silly placeDep node_modules/webtorrent-cli random-access-file@2.2.0 OK for: fs-chunk-store@2.0.4 want: ^2.0.1
+675 silly placeDep node_modules/webtorrent-cli rimraf@3.0.2 OK for: fs-chunk-store@2.0.4 want: ^3.0.0
+676 silly placeDep node_modules/webtorrent-cli/node_modules/fs-chunk-store thunky@1.1.0 OK for: fs-chunk-store@2.0.4 want: ^1.0.1
+677 silly fetch manifest mkdirp-classic@^0.5.2
+678 silly fetch manifest random-access-storage@^1.1.1
+679 silly fetch manifest glob@^7.1.3
+680 http fetch GET 200 https://registry.npmjs.org/glob 50ms
+681 http fetch GET 200 https://registry.npmjs.org/mkdirp-classic 69ms
+682 http fetch GET 200 https://registry.npmjs.org/random-access-storage 369ms
+683 timing idealTree:node_modules/webtorrent-cli/node_modules/fs-chunk-store Completed in 392ms
+684 timing idealTree:node_modules/webtorrent-cli/node_modules/http-parser-js Completed in 0ms
+685 timing idealTree:node_modules/webtorrent-cli/node_modules/immediate-chunk-store Completed in 0ms
+686 timing idealTree:node_modules/webtorrent-cli/node_modules/k-bucket Completed in 0ms
+687 silly placeDep node_modules/webtorrent-cli k-rpc-socket@1.11.1 OK for: k-rpc@5.1.0 want: ^1.7.2
+688 silly fetch manifest chrome-dgram@^3.0.2
+689 silly fetch manifest chrome-dns@^1.0.0
+690 http fetch GET 200 https://registry.npmjs.org/chrome-dns 337ms
+691 http fetch GET 200 https://registry.npmjs.org/chrome-dgram 342ms
+692 timing idealTree:node_modules/webtorrent-cli/node_modules/k-rpc Completed in 348ms
+693 silly placeDep node_modules/webtorrent-cli chrome-dgram@3.0.6 OK for: k-rpc-socket@1.11.1 want: ^3.0.2
+694 silly placeDep node_modules/webtorrent-cli chrome-dns@1.0.1 OK for: k-rpc-socket@1.11.1 want: ^1.0.0
+695 silly fetch manifest run-series@^1.1.9
+696 http fetch GET 200 https://registry.npmjs.org/run-series 49ms
+697 timing idealTree:node_modules/webtorrent-cli/node_modules/k-rpc-socket Completed in 52ms
+698 silly placeDep node_modules/webtorrent-cli run-series@1.1.9 OK for: chrome-dgram@3.0.6 want: ^1.1.9
+699 timing idealTree:node_modules/webtorrent-cli/node_modules/chrome-dgram Completed in 4ms
+700 timing idealTree:node_modules/webtorrent-cli/node_modules/chrome-dns Completed in 0ms
+701 timing idealTree:node_modules/webtorrent-cli/node_modules/last-one-wins Completed in 0ms
+702 silly placeDep node_modules/webtorrent-cli ip-set@2.1.0 OK for: load-ip-set@2.2.1 want: ^2.1.0
+703 silly placeDep node_modules/webtorrent-cli netmask@2.0.2 OK for: load-ip-set@2.2.1 want: ^2.0.1
+704 silly placeDep node_modules/webtorrent-cli/node_modules/load-ip-set simple-get@4.0.0 OK for: load-ip-set@2.2.1 want: ^4.0.0
+705 silly placeDep node_modules/webtorrent-cli split@1.0.1 OK for: load-ip-set@2.2.1 want: ^1.0.1
+706 silly fetch manifest through@2
+707 http fetch GET 200 https://registry.npmjs.org/through 47ms
+708 timing idealTree:node_modules/webtorrent-cli/node_modules/load-ip-set Completed in 61ms
+709 timing idealTree:node_modules/webtorrent-cli/node_modules/ip-set Completed in 0ms
+710 timing idealTree:node_modules/webtorrent-cli/node_modules/lru Completed in 0ms
+711 silly placeDep node_modules/webtorrent-cli/node_modules/lt_donthave debug@4.3.3 OK for: lt_donthave@1.0.1 want: ^4.2.0
+712 timing idealTree:node_modules/webtorrent-cli/node_modules/lt_donthave Completed in 2ms
+713 timing idealTree:node_modules/webtorrent-cli/node_modules/netmask Completed in 0ms
+714 silly placeDep node_modules/webtorrent-cli browserify-package-json@1.0.1 OK for: package-json-versionify@1.0.4 want: ^1.0.0
+715 timing idealTree:node_modules/webtorrent-cli/node_modules/package-json-versionify Completed in 1ms
+716 timing idealTree:node_modules/webtorrent-cli/node_modules/browserify-package-json Completed in 0ms
+717 timing idealTree:node_modules/webtorrent-cli/node_modules/pump Completed in 0ms
+718 silly placeDep node_modules/webtorrent-cli mkdirp-classic@0.5.3 OK for: random-access-file@2.2.0 want: ^0.5.2
+719 silly placeDep node_modules/webtorrent-cli random-access-storage@1.4.2 OK for: random-access-file@2.2.0 want: ^1.1.1
+720 silly fetch manifest queue-tick@^1.0.0
+721 http fetch GET 200 https://registry.npmjs.org/queue-tick 328ms
+722 timing idealTree:node_modules/webtorrent-cli/node_modules/random-access-file Completed in 332ms
+723 timing idealTree:node_modules/webtorrent-cli/node_modules/mkdirp-classic Completed in 0ms
+724 silly placeDep node_modules/webtorrent-cli queue-tick@1.0.0 OK for: random-access-storage@1.4.2 want: ^1.0.0
+725 timing idealTree:node_modules/webtorrent-cli/node_modules/random-access-storage Completed in 2ms
+726 timing idealTree:node_modules/webtorrent-cli/node_modules/queue-tick Completed in 0ms
+727 timing idealTree:node_modules/webtorrent-cli/node_modules/random-iterate Completed in 0ms
+728 timing idealTree:node_modules/webtorrent-cli/node_modules/randombytes Completed in 0ms
+729 timing idealTree:node_modules/webtorrent-cli/node_modules/range-parser Completed in 0ms
+730 timing idealTree:node_modules/webtorrent-cli/node_modules/rc4 Completed in 0ms
+731 timing idealTree:node_modules/webtorrent-cli/node_modules/record-cache Completed in 0ms
+732 silly placeDep node_modules/webtorrent-cli/node_modules/render-media debug@4.3.3 OK for: render-media@4.1.0 want: ^4.2.0
+733 silly placeDep node_modules/webtorrent-cli is-ascii@1.0.0 OK for: render-media@4.1.0 want: ^1.0.0
+734 silly placeDep node_modules/webtorrent-cli mediasource@2.4.0 OK for: render-media@4.1.0 want: ^2.4.0
+735 silly placeDep node_modules/webtorrent-cli videostream@3.2.2 OK for: render-media@4.1.0 want: ^3.2.2
+736 silly fetch manifest to-arraybuffer@^1.0.1
+737 silly fetch manifest binary-search@^1.3.4
+738 silly fetch manifest mp4-box-encoding@^1.3.0
+739 silly fetch manifest mp4-stream@^3.0.0
+740 silly fetch manifest range-slice-stream@^2.0.0
+741 http fetch GET 200 https://registry.npmjs.org/to-arraybuffer 64ms
+742 http fetch GET 200 https://registry.npmjs.org/binary-search 438ms
+743 http fetch GET 200 https://registry.npmjs.org/mp4-box-encoding 438ms
+744 http fetch GET 200 https://registry.npmjs.org/mp4-stream 439ms
+745 http fetch GET 200 https://registry.npmjs.org/range-slice-stream 439ms
+746 timing idealTree:node_modules/webtorrent-cli/node_modules/render-media Completed in 453ms
+747 timing idealTree:node_modules/webtorrent-cli/node_modules/is-ascii Completed in 0ms
+748 silly placeDep node_modules/webtorrent-cli to-arraybuffer@1.0.1 OK for: mediasource@2.4.0 want: ^1.0.1
+749 timing idealTree:node_modules/webtorrent-cli/node_modules/mediasource Completed in 3ms
+750 silly placeDep node_modules/webtorrent-cli glob@7.2.0 OK for: rimraf@3.0.2 want: ^7.1.3
+751 silly fetch manifest fs.realpath@^1.0.0
+752 silly fetch manifest inflight@^1.0.4
+753 silly fetch manifest minimatch@^3.0.4
+754 silly fetch manifest path-is-absolute@^1.0.0
+755 http fetch GET 200 https://registry.npmjs.org/fs.realpath 60ms
+756 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 66ms
+757 http fetch GET 200 https://registry.npmjs.org/inflight 84ms
+758 http fetch GET 200 https://registry.npmjs.org/minimatch 84ms
+759 timing idealTree:node_modules/webtorrent-cli/node_modules/rimraf Completed in 97ms
+760 silly placeDep node_modules/webtorrent-cli fs.realpath@1.0.0 OK for: glob@7.2.0 want: ^1.0.0
+761 silly placeDep node_modules/webtorrent-cli inflight@1.0.6 OK for: glob@7.2.0 want: ^1.0.4
+762 silly placeDep node_modules/webtorrent-cli minimatch@3.0.4 OK for: glob@7.2.0 want: ^3.0.4
+763 silly placeDep node_modules/webtorrent-cli path-is-absolute@1.0.1 OK for: glob@7.2.0 want: ^1.0.0
+764 silly fetch manifest brace-expansion@^1.1.7
+765 http fetch GET 200 https://registry.npmjs.org/brace-expansion 33ms
+766 timing idealTree:node_modules/webtorrent-cli/node_modules/glob Completed in 38ms
+767 timing idealTree:node_modules/webtorrent-cli/node_modules/fs.realpath Completed in 0ms
+768 timing idealTree:node_modules/webtorrent-cli/node_modules/inflight Completed in 0ms
+769 silly placeDep node_modules/webtorrent-cli brace-expansion@1.1.11 OK for: minimatch@3.0.4 want: ^1.1.7
+770 silly fetch manifest balanced-match@^1.0.0
+771 silly fetch manifest concat-map@0.0.1
+772 http fetch GET 200 https://registry.npmjs.org/concat-map 52ms
+773 http fetch GET 200 https://registry.npmjs.org/balanced-match 57ms
+774 timing idealTree:node_modules/webtorrent-cli/node_modules/minimatch Completed in 60ms
+775 silly placeDep node_modules/webtorrent-cli balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+776 silly placeDep node_modules/webtorrent-cli concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+777 timing idealTree:node_modules/webtorrent-cli/node_modules/brace-expansion Completed in 4ms
+778 timing idealTree:node_modules/webtorrent-cli/node_modules/balanced-match Completed in 0ms
+779 timing idealTree:node_modules/webtorrent-cli/node_modules/concat-map Completed in 0ms
+780 timing idealTree:node_modules/webtorrent-cli/node_modules/path-is-absolute Completed in 0ms
+781 timing idealTree:node_modules/webtorrent-cli/node_modules/run-parallel-limit Completed in 0ms
+782 timing idealTree:node_modules/webtorrent-cli/node_modules/run-series Completed in 0ms
+783 silly placeDep node_modules/webtorrent-cli buffer@6.0.3 OK for: simple-peer@9.11.0 want: ^6.0.3
+784 silly placeDep node_modules/webtorrent-cli/node_modules/simple-peer debug@4.3.3 OK for: simple-peer@9.11.0 want: ^4.3.1
+785 silly placeDep node_modules/webtorrent-cli err-code@3.0.1 OK for: simple-peer@9.11.0 want: ^3.0.1
+786 silly placeDep node_modules/webtorrent-cli get-browser-rtc@1.1.0 OK for: simple-peer@9.11.0 want: ^1.1.0
+787 silly fetch manifest base64-js@^1.3.1
+788 silly fetch manifest ieee754@^1.2.1
+789 http fetch GET 200 https://registry.npmjs.org/ieee754 52ms
+790 http fetch GET 200 https://registry.npmjs.org/base64-js 80ms
+791 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-peer Completed in 90ms
+792 silly placeDep node_modules/webtorrent-cli base64-js@1.5.1 OK for: buffer@6.0.3 want: ^1.3.1
+793 silly placeDep node_modules/webtorrent-cli ieee754@1.2.1 OK for: buffer@6.0.3 want: ^1.2.1
+794 timing idealTree:node_modules/webtorrent-cli/node_modules/buffer Completed in 4ms
+795 timing idealTree:node_modules/webtorrent-cli/node_modules/base64-js Completed in 0ms
+796 timing idealTree:node_modules/webtorrent-cli/node_modules/err-code Completed in 0ms
+797 timing idealTree:node_modules/webtorrent-cli/node_modules/get-browser-rtc Completed in 0ms
+798 timing idealTree:node_modules/webtorrent-cli/node_modules/ieee754 Completed in 0ms
+799 silly placeDep node_modules/webtorrent-cli limiter@1.1.5 OK for: speed-limiter@1.0.2 want: ^1.1.5
+800 silly placeDep node_modules/webtorrent-cli streamx@2.12.0 OK for: speed-limiter@1.0.2 want: ^2.10.3
+801 silly fetch manifest fast-fifo@^1.0.0
+802 http fetch GET 200 https://registry.npmjs.org/fast-fifo 64ms
+803 timing idealTree:node_modules/webtorrent-cli/node_modules/speed-limiter Completed in 78ms
+804 timing idealTree:node_modules/webtorrent-cli/node_modules/limiter Completed in 0ms
+805 timing idealTree:node_modules/webtorrent-cli/node_modules/speedometer Completed in 0ms
+806 silly placeDep node_modules/webtorrent-cli through@2.3.8 OK for: split@1.0.1 want: 2
+807 timing idealTree:node_modules/webtorrent-cli/node_modules/split Completed in 7ms
+808 timing idealTree:node_modules/webtorrent-cli/node_modules/stream-to-blob Completed in 0ms
+809 timing idealTree:node_modules/webtorrent-cli/node_modules/stream-to-blob-url Completed in 0ms
+810 timing idealTree:node_modules/webtorrent-cli/node_modules/stream-with-known-length-to-buffer Completed in 1ms
+811 silly placeDep node_modules/webtorrent-cli fast-fifo@1.1.0 OK for: streamx@2.12.0 want: ^1.0.0
+812 timing idealTree:node_modules/webtorrent-cli/node_modules/streamx Completed in 2ms
+813 timing idealTree:node_modules/webtorrent-cli/node_modules/fast-fifo Completed in 0ms
+814 timing idealTree:node_modules/webtorrent-cli/node_modules/through Completed in 1ms
+815 timing idealTree:node_modules/webtorrent-cli/node_modules/to-arraybuffer Completed in 0ms
+816 silly placeDep node_modules/webtorrent-cli bittorrent-lsd@1.1.1 OK for: torrent-discovery@9.4.7 want: ^1.1.1
+817 silly placeDep node_modules/webtorrent-cli bittorrent-tracker@9.18.3 OK for: torrent-discovery@9.4.7 want: ^9.18.3
+818 silly placeDep node_modules/webtorrent-cli/node_modules/torrent-discovery debug@4.3.3 OK for: torrent-discovery@9.4.7 want: ^4.3.2
+819 silly fetch manifest bufferutil@^4.0.3
+820 silly fetch manifest utf-8-validate@^5.0.5
+821 silly fetch manifest bittorrent-peerid@^1.3.3
+822 silly fetch manifest bn.js@^5.2.0
+823 silly fetch manifest clone@^2.0.0
+824 silly fetch manifest simple-websocket@^9.1.0
+825 silly fetch manifest socks@^2.0.0
+826 silly fetch manifest string2compact@^1.3.0
+827 silly fetch manifest ws@^7.4.5
+828 http fetch GET 200 https://registry.npmjs.org/ws 77ms
+829 http fetch GET 200 https://registry.npmjs.org/bn.js 97ms
+830 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 102ms
+831 http fetch GET 200 https://registry.npmjs.org/clone 99ms
+832 http fetch GET 200 https://registry.npmjs.org/socks 98ms
+833 http fetch GET 200 https://registry.npmjs.org/bittorrent-peerid 407ms
+834 http fetch GET 200 https://registry.npmjs.org/bufferutil 412ms
+835 http fetch GET 200 https://registry.npmjs.org/simple-websocket 408ms
+836 timing idealTree:node_modules/webtorrent-cli/node_modules/torrent-discovery Completed in 428ms
+837 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-lsd debug@4.3.3 OK for: bittorrent-lsd@1.1.1 want: ^4.2.0
+838 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-lsd Completed in 3ms
+839 silly placeDep node_modules/webtorrent-cli bittorrent-peerid@1.3.4 OK for: bittorrent-tracker@9.18.3 want: ^1.3.3
+840 silly placeDep node_modules/webtorrent-cli bn.js@5.2.0 OK for: bittorrent-tracker@9.18.3 want: ^5.2.0
+841 silly placeDep node_modules/webtorrent-cli bufferutil@4.0.6 OK for: bittorrent-tracker@9.18.3 want: ^4.0.3
+842 silly placeDep node_modules/webtorrent-cli clone@2.1.2 OK for: bittorrent-tracker@9.18.3 want: ^2.0.0
+843 silly placeDep node_modules/webtorrent-cli compact2string@1.4.1 OK for: bittorrent-tracker@9.18.3 want: ^1.4.1
+844 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-tracker debug@4.3.3 OK for: bittorrent-tracker@9.18.3 want: ^4.1.1
+845 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-tracker simple-get@4.0.0 OK for: bittorrent-tracker@9.18.3 want: ^4.0.0
+846 silly placeDep node_modules/webtorrent-cli simple-websocket@9.1.0 OK for: bittorrent-tracker@9.18.3 want: ^9.1.0
+847 silly placeDep node_modules/webtorrent-cli socks@2.6.1 OK for: bittorrent-tracker@9.18.3 want: ^2.0.0
+848 silly placeDep node_modules/webtorrent-cli string2compact@1.3.2 OK for: bittorrent-tracker@9.18.3 want: ^1.3.0
+849 silly placeDep node_modules/webtorrent-cli utf-8-validate@5.0.8 OK for: bittorrent-tracker@9.18.3 want: ^5.0.5
+850 silly placeDep node_modules/webtorrent-cli ws@7.5.6 OK for: bittorrent-tracker@9.18.3 want: ^7.4.5
+851 silly fetch manifest node-gyp-build@^4.3.0
+852 silly fetch manifest ipaddr.js@>= 0.1.5
+853 silly fetch manifest smart-buffer@^4.1.0
+854 silly fetch manifest ipaddr.js@^2.0.0
+855 http fetch GET 200 https://registry.npmjs.org/ipaddr.js 59ms
+856 http fetch GET 200 https://registry.npmjs.org/smart-buffer 88ms
+857 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-tracker Completed in 107ms
+858 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-peerid Completed in 0ms
+859 timing idealTree:node_modules/webtorrent-cli/node_modules/bn.js Completed in 0ms
+860 silly placeDep node_modules/webtorrent-cli node-gyp-build@4.3.0 OK for: bufferutil@4.0.6 want: ^4.3.0
+861 timing idealTree:node_modules/webtorrent-cli/node_modules/bufferutil Completed in 4ms
+862 timing idealTree:node_modules/webtorrent-cli/node_modules/clone Completed in 0ms
+863 silly placeDep node_modules/webtorrent-cli ipaddr.js@2.0.1 OK for: compact2string@1.4.1 want: >= 0.1.5
+864 timing idealTree:node_modules/webtorrent-cli/node_modules/compact2string Completed in 12ms
+865 timing idealTree:node_modules/webtorrent-cli/node_modules/ipaddr.js Completed in 0ms
+866 timing idealTree:node_modules/webtorrent-cli/node_modules/node-gyp-build Completed in 0ms
+867 silly placeDep node_modules/webtorrent-cli/node_modules/simple-websocket debug@4.3.3 OK for: simple-websocket@9.1.0 want: ^4.3.1
+868 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-websocket Completed in 2ms
+869 silly placeDep node_modules/webtorrent-cli smart-buffer@4.2.0 OK for: socks@2.6.1 want: ^4.1.0
+870 timing idealTree:node_modules/webtorrent-cli/node_modules/socks Completed in 2ms
+871 timing idealTree:node_modules/webtorrent-cli/node_modules/smart-buffer Completed in 0ms
+872 timing idealTree:node_modules/webtorrent-cli/node_modules/string2compact Completed in 0ms
+873 timing idealTree:node_modules/webtorrent-cli/node_modules/torrent-piece Completed in 0ms
+874 timing idealTree:node_modules/webtorrent-cli/node_modules/unordered-array-remove Completed in 0ms
+875 silly placeDep node_modules/webtorrent-cli/node_modules/ut_metadata debug@4.3.3 OK for: ut_metadata@3.5.2 want: ^4.2.0
+876 timing idealTree:node_modules/webtorrent-cli/node_modules/ut_metadata Completed in 3ms
+877 timing idealTree:node_modules/webtorrent-cli/node_modules/ut_pex Completed in 0ms
+878 timing idealTree:node_modules/webtorrent-cli/node_modules/utf-8-validate Completed in 0ms
+879 silly placeDep node_modules/webtorrent-cli napi-macros@2.0.0 OK for: utp-native@2.5.3 want: ^2.0.0
+880 silly placeDep node_modules/webtorrent-cli timeout-refresh@1.0.3 OK for: utp-native@2.5.3 want: ^1.0.0
+881 silly placeDep node_modules/webtorrent-cli unordered-set@2.0.1 OK for: utp-native@2.5.3 want: ^2.0.1
+882 timing idealTree:node_modules/webtorrent-cli/node_modules/utp-native Completed in 3ms
+883 timing idealTree:node_modules/webtorrent-cli/node_modules/napi-macros Completed in 0ms
+884 timing idealTree:node_modules/webtorrent-cli/node_modules/timeout-refresh Completed in 0ms
+885 timing idealTree:node_modules/webtorrent-cli/node_modules/unordered-set Completed in 0ms
+886 silly placeDep node_modules/webtorrent-cli binary-search@1.3.6 OK for: videostream@3.2.2 want: ^1.3.4
+887 silly placeDep node_modules/webtorrent-cli mp4-box-encoding@1.4.1 OK for: videostream@3.2.2 want: ^1.3.0
+888 silly placeDep node_modules/webtorrent-cli mp4-stream@3.1.3 OK for: videostream@3.2.2 want: ^3.0.0
+889 silly placeDep node_modules/webtorrent-cli range-slice-stream@2.0.0 OK for: videostream@3.2.2 want: ^2.0.0
+890 silly fetch manifest uint64be@^2.0.2
+891 silly fetch manifest next-event@^1.0.0
+892 http fetch GET 200 https://registry.npmjs.org/next-event 444ms
+893 http fetch GET 200 https://registry.npmjs.org/uint64be 450ms
+894 timing idealTree:node_modules/webtorrent-cli/node_modules/videostream Completed in 455ms
+895 timing idealTree:node_modules/webtorrent-cli/node_modules/binary-search Completed in 0ms
+896 silly placeDep node_modules/webtorrent-cli uint64be@2.0.2 OK for: mp4-box-encoding@1.4.1 want: ^2.0.2
+897 silly fetch manifest buffer-alloc@^1.1.0
+898 http fetch GET 200 https://registry.npmjs.org/buffer-alloc 57ms
+899 timing idealTree:node_modules/webtorrent-cli/node_modules/mp4-box-encoding Completed in 62ms
+900 silly placeDep node_modules/webtorrent-cli next-event@1.0.0 OK for: mp4-stream@3.1.3 want: ^1.0.0
+901 timing idealTree:node_modules/webtorrent-cli/node_modules/mp4-stream Completed in 2ms
+902 timing idealTree:node_modules/webtorrent-cli/node_modules/next-event Completed in 0ms
+903 timing idealTree:node_modules/webtorrent-cli/node_modules/range-slice-stream Completed in 0ms
+904 silly placeDep node_modules/webtorrent-cli buffer-alloc@1.2.0 OK for: uint64be@2.0.2 want: ^1.1.0
+905 silly fetch manifest buffer-alloc-unsafe@^1.1.0
+906 silly fetch manifest buffer-fill@^1.0.0
+907 http fetch GET 200 https://registry.npmjs.org/buffer-alloc-unsafe 47ms
+908 http fetch GET 200 https://registry.npmjs.org/buffer-fill 54ms
+909 timing idealTree:node_modules/webtorrent-cli/node_modules/uint64be Completed in 65ms
+910 silly placeDep node_modules/webtorrent-cli buffer-alloc-unsafe@1.1.0 OK for: buffer-alloc@1.2.0 want: ^1.1.0
+911 silly placeDep node_modules/webtorrent-cli buffer-fill@1.0.0 OK for: buffer-alloc@1.2.0 want: ^1.0.0
+912 timing idealTree:node_modules/webtorrent-cli/node_modules/buffer-alloc Completed in 6ms
+913 timing idealTree:node_modules/webtorrent-cli/node_modules/buffer-alloc-unsafe Completed in 0ms
+914 timing idealTree:node_modules/webtorrent-cli/node_modules/buffer-fill Completed in 0ms
+915 timing idealTree:node_modules/webtorrent-cli/node_modules/winreg Completed in 0ms
+916 timing idealTree:node_modules/webtorrent-cli/node_modules/wrappy Completed in 0ms
+917 timing idealTree:node_modules/webtorrent-cli/node_modules/ws Completed in 0ms
+918 silly placeDep node_modules/webtorrent-cli/node_modules/xml2js xmlbuilder@11.0.1 OK for: xml2js@0.4.23 want: ~11.0.0
+919 timing idealTree:node_modules/webtorrent-cli/node_modules/xml2js Completed in 2ms
+920 timing idealTree:node_modules/webtorrent-cli/node_modules/xmlbuilder Completed in 0ms
+921 timing idealTree:node_modules/webtorrent-cli/node_modules/xmldom Completed in 0ms
+922 silly placeDep node_modules/webtorrent-cli cliui@7.0.4 OK for: yargs@17.3.1 want: ^7.0.2
+923 silly placeDep node_modules/webtorrent-cli escalade@3.1.1 OK for: yargs@17.3.1 want: ^3.1.1
+924 silly placeDep node_modules/webtorrent-cli get-caller-file@2.0.5 OK for: yargs@17.3.1 want: ^2.0.5
+925 silly placeDep node_modules/webtorrent-cli require-directory@2.1.1 OK for: yargs@17.3.1 want: ^2.1.1
+926 silly placeDep node_modules/webtorrent-cli string-width@4.2.3 OK for: yargs@17.3.1 want: ^4.2.3
+927 silly placeDep node_modules/webtorrent-cli y18n@5.0.8 OK for: yargs@17.3.1 want: ^5.0.5
+928 silly placeDep node_modules/webtorrent-cli yargs-parser@21.0.0 OK for: yargs@17.3.1 want: ^21.0.0
+929 silly fetch manifest strip-ansi@^6.0.0
+930 silly fetch manifest wrap-ansi@^7.0.0
+931 silly fetch manifest emoji-regex@^8.0.0
+932 silly fetch manifest is-fullwidth-code-point@^3.0.0
+933 silly fetch manifest strip-ansi@^6.0.1
+934 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 50ms
+935 http fetch GET 200 https://registry.npmjs.org/emoji-regex 54ms
+936 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 63ms
+937 http fetch GET 200 https://registry.npmjs.org/strip-ansi 76ms
+938 timing idealTree:node_modules/webtorrent-cli/node_modules/yargs Completed in 82ms
+939 silly placeDep node_modules/webtorrent-cli strip-ansi@6.0.1 OK for: cliui@7.0.4 want: ^6.0.0
+940 silly placeDep node_modules/webtorrent-cli wrap-ansi@7.0.0 OK for: cliui@7.0.4 want: ^7.0.0
+941 silly fetch manifest ansi-regex@^5.0.1
+942 http fetch GET 200 https://registry.npmjs.org/ansi-regex 62ms
+943 timing idealTree:node_modules/webtorrent-cli/node_modules/cliui Completed in 67ms
+944 timing idealTree:node_modules/webtorrent-cli/node_modules/escalade Completed in 0ms
+945 timing idealTree:node_modules/webtorrent-cli/node_modules/get-caller-file Completed in 0ms
+946 timing idealTree:node_modules/webtorrent-cli/node_modules/require-directory Completed in 0ms
+947 silly placeDep node_modules/webtorrent-cli emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+948 silly placeDep node_modules/webtorrent-cli is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+949 timing idealTree:node_modules/webtorrent-cli/node_modules/string-width Completed in 5ms
+950 timing idealTree:node_modules/webtorrent-cli/node_modules/emoji-regex Completed in 0ms
+951 timing idealTree:node_modules/webtorrent-cli/node_modules/is-fullwidth-code-point Completed in 0ms
+952 silly placeDep node_modules/webtorrent-cli ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+953 timing idealTree:node_modules/webtorrent-cli/node_modules/strip-ansi Completed in 3ms
+954 timing idealTree:node_modules/webtorrent-cli/node_modules/ansi-regex Completed in 0ms
+955 timing idealTree:node_modules/webtorrent-cli/node_modules/wrap-ansi Completed in 0ms
+956 timing idealTree:node_modules/webtorrent-cli/node_modules/y18n Completed in 0ms
+957 timing idealTree:node_modules/webtorrent-cli/node_modules/yargs-parser Completed in 0ms
+958 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-dht ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+959 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-dht/node_modules/debug Completed in 3ms
+960 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-dht/node_modules/ms Completed in 0ms
+961 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-lsd ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+962 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-lsd/node_modules/debug Completed in 3ms
+963 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-lsd/node_modules/ms Completed in 0ms
+964 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-protocol ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+965 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-protocol/node_modules/debug Completed in 2ms
+966 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-protocol/node_modules/ms Completed in 0ms
+967 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-tracker ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+968 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-tracker/node_modules/debug Completed in 1ms
+969 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-tracker/node_modules/ms Completed in 0ms
+970 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-tracker decompress-response@6.0.0 OK for: simple-get@4.0.0 want: ^6.0.0
+971 silly fetch manifest mimic-response@^3.1.0
+972 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-tracker/node_modules/simple-get Completed in 3ms
+973 silly placeDep node_modules/webtorrent-cli/node_modules/bittorrent-tracker mimic-response@3.1.0 OK for: decompress-response@6.0.0 want: ^3.1.0
+974 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-tracker/node_modules/decompress-response Completed in 1ms
+975 timing idealTree:node_modules/webtorrent-cli/node_modules/bittorrent-tracker/node_modules/mimic-response Completed in 0ms
+976 silly placeDep node_modules/webtorrent-cli/node_modules/castv2 ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+977 timing idealTree:node_modules/webtorrent-cli/node_modules/castv2/node_modules/debug Completed in 2ms
+978 timing idealTree:node_modules/webtorrent-cli/node_modules/castv2/node_modules/ms Completed in 0ms
+979 timing idealTree:node_modules/webtorrent-cli/node_modules/chromecasts/node_modules/mime Completed in 0ms
+980 silly placeDep node_modules/webtorrent-cli core-util-is@1.0.3 OK for: readable-stream@2.3.7 want: ~1.0.0
+981 silly placeDep node_modules/webtorrent-cli isarray@1.0.0 OK for: readable-stream@2.3.7 want: ~1.0.0
+982 silly placeDep node_modules/webtorrent-cli process-nextick-args@2.0.1 OK for: readable-stream@2.3.7 want: ~2.0.0
+983 silly placeDep node_modules/webtorrent-cli/node_modules/concat-stream safe-buffer@5.1.2 OK for: readable-stream@2.3.7 want: ~5.1.1
+984 silly placeDep node_modules/webtorrent-cli/node_modules/concat-stream string_decoder@1.1.1 OK for: readable-stream@2.3.7 want: ~1.1.1
+985 timing idealTree:node_modules/webtorrent-cli/node_modules/concat-stream/node_modules/readable-stream Completed in 7ms
+986 timing idealTree:node_modules/webtorrent-cli/node_modules/core-util-is Completed in 0ms
+987 timing idealTree:node_modules/webtorrent-cli/node_modules/isarray Completed in 0ms
+988 timing idealTree:node_modules/webtorrent-cli/node_modules/process-nextick-args Completed in 0ms
+989 timing idealTree:node_modules/webtorrent-cli/node_modules/concat-stream/node_modules/safe-buffer Completed in 0ms
+990 timing idealTree:node_modules/webtorrent-cli/node_modules/concat-stream/node_modules/string_decoder Completed in 0ms
+991 timing idealTree:node_modules/webtorrent-cli/node_modules/dlnacasts/node_modules/mime Completed in 0ms
+992 timing idealTree:node_modules/webtorrent-cli/node_modules/fs-chunk-store/node_modules/thunky Completed in 0ms
+993 silly placeDep node_modules/webtorrent-cli/node_modules/load-ip-set decompress-response@6.0.0 OK for: simple-get@4.0.0 want: ^6.0.0
+994 timing idealTree:node_modules/webtorrent-cli/node_modules/load-ip-set/node_modules/simple-get Completed in 1ms
+995 silly placeDep node_modules/webtorrent-cli/node_modules/load-ip-set mimic-response@3.1.0 OK for: decompress-response@6.0.0 want: ^3.1.0
+996 timing idealTree:node_modules/webtorrent-cli/node_modules/load-ip-set/node_modules/decompress-response Completed in 1ms
+997 timing idealTree:node_modules/webtorrent-cli/node_modules/load-ip-set/node_modules/mimic-response Completed in 0ms
+998 silly placeDep node_modules/webtorrent-cli/node_modules/lt_donthave ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+999 timing idealTree:node_modules/webtorrent-cli/node_modules/lt_donthave/node_modules/debug Completed in 1ms
+1000 timing idealTree:node_modules/webtorrent-cli/node_modules/lt_donthave/node_modules/ms Completed in 0ms
+1001 timing idealTree:node_modules/webtorrent-cli/node_modules/multicast-dns/node_modules/thunky Completed in 0ms
+1002 silly placeDep node_modules/webtorrent-cli/node_modules/parse-torrent decompress-response@6.0.0 OK for: simple-get@4.0.0 want: ^6.0.0
+1003 timing idealTree:node_modules/webtorrent-cli/node_modules/parse-torrent/node_modules/simple-get Completed in 5ms
+1004 silly placeDep node_modules/webtorrent-cli/node_modules/parse-torrent mimic-response@3.1.0 OK for: decompress-response@6.0.0 want: ^3.1.0
+1005 timing idealTree:node_modules/webtorrent-cli/node_modules/parse-torrent/node_modules/decompress-response Completed in 1ms
+1006 timing idealTree:node_modules/webtorrent-cli/node_modules/parse-torrent/node_modules/mimic-response Completed in 0ms
+1007 silly placeDep node_modules/webtorrent-cli/node_modules/render-media ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+1008 timing idealTree:node_modules/webtorrent-cli/node_modules/render-media/node_modules/debug Completed in 1ms
+1009 timing idealTree:node_modules/webtorrent-cli/node_modules/render-media/node_modules/ms Completed in 0ms
+1010 silly placeDep node_modules/webtorrent-cli/node_modules/simple-peer ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+1011 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-peer/node_modules/debug Completed in 1ms
+1012 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-peer/node_modules/ms Completed in 0ms
+1013 silly placeDep node_modules/webtorrent-cli/node_modules/simple-websocket ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+1014 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-websocket/node_modules/debug Completed in 3ms
+1015 timing idealTree:node_modules/webtorrent-cli/node_modules/simple-websocket/node_modules/ms Completed in 0ms
+1016 silly placeDep node_modules/webtorrent-cli/node_modules/torrent-discovery ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+1017 timing idealTree:node_modules/webtorrent-cli/node_modules/torrent-discovery/node_modules/debug Completed in 1ms
+1018 timing idealTree:node_modules/webtorrent-cli/node_modules/torrent-discovery/node_modules/ms Completed in 0ms
+1019 silly placeDep node_modules/webtorrent-cli/node_modules/ut_metadata ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+1020 timing idealTree:node_modules/webtorrent-cli/node_modules/ut_metadata/node_modules/debug Completed in 1ms
+1021 timing idealTree:node_modules/webtorrent-cli/node_modules/ut_metadata/node_modules/ms Completed in 0ms
+1022 silly placeDep node_modules/webtorrent-cli/node_modules/webtorrent ms@2.1.2 OK for: debug@4.3.3 want: 2.1.2
+1023 timing idealTree:node_modules/webtorrent-cli/node_modules/webtorrent/node_modules/debug Completed in 0ms
+1024 timing idealTree:node_modules/webtorrent-cli/node_modules/webtorrent/node_modules/mime Completed in 0ms
+1025 timing idealTree:node_modules/webtorrent-cli/node_modules/webtorrent/node_modules/ms Completed in 0ms
+1026 silly placeDep node_modules/webtorrent-cli/node_modules/webtorrent decompress-response@6.0.0 OK for: simple-get@4.0.0 want: ^6.0.0
+1027 timing idealTree:node_modules/webtorrent-cli/node_modules/webtorrent/node_modules/simple-get Completed in 0ms
+1028 silly placeDep node_modules/webtorrent-cli/node_modules/webtorrent mimic-response@3.1.0 OK for: decompress-response@6.0.0 want: ^3.1.0
+1029 timing idealTree:node_modules/webtorrent-cli/node_modules/webtorrent/node_modules/decompress-response Completed in 1ms
+1030 timing idealTree:node_modules/webtorrent-cli/node_modules/webtorrent/node_modules/mimic-response Completed in 0ms
+1031 timing idealTree:node_modules/webtorrent-cli/node_modules/xml2js/node_modules/xmlbuilder Completed in 0ms
+1032 timing idealTree:buildDeps Completed in 12769ms
+1033 timing idealTree:fixDepFlags Completed in 3ms
+1034 timing idealTree Completed in 12780ms
+1035 timing reify:loadTrees Completed in 12784ms
+1036 timing reify:diffTrees Completed in 5ms
+1037 silly reify moves {}
+1038 timing reify:retireShallow Completed in 1ms
+1039 timing reify:rollback:createSparse Completed in 0ms
+1040 timing reify:rollback:retireShallow Completed in 0ms
+1041 timing command:install Completed in 12827ms
+1042 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+1043 verbose cwd /home/rkakade
+1044 verbose Linux 5.10.0-10-amd64
+1045 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "webtorrent-cli" "-g"
+1046 verbose node v12.22.5
+1047 verbose npm  v7.5.2
+1048 error code EACCES
+1049 error syscall mkdir
+1050 error path /usr/local/lib/node_modules
+1051 error errno -13
+1052 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+1052 error  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'] {
+1052 error   errno: -13,
+1052 error   code: 'EACCES',
+1052 error   syscall: 'mkdir',
+1052 error   path: '/usr/local/lib/node_modules'
+1052 error }
+1053 error The operation was rejected by your operating system.
+1053 error It is likely you do not have the permissions to access this file as the current user
+1053 error
+1053 error If you believe this might be a permissions issue, please double-check the
+1053 error permissions of the file and its containing directories, or try running
+1053 error the command again as root/Administrator.
+1054 verbose exit -13

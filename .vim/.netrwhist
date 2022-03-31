@@ -1,6 +1,12 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/home/rkakade/.vimrc'
-let g:netrw_dirhist_3='/etc/X11/xinit'
-let g:netrw_dirhist_2='/home/rkakade/.urxvt/ext'
-let g:netrw_dirhist_1='/home/rkakade/.urxvt'
+let g:netrw_dirhist_4='/home/rkakade/.config/i3'
+let g:netrw_dirhist_3='/home/rkakade/.vim'
+let g:netrw_dirhist_2='/home/rkakade/.config/i3'
+let g:netrw_dirhist_1='/home/rkakade/.urxvt/ext'
+let g:netrw_dirhist_0='/home/rkakade/.urxvt'
+let g:netrw_dirhist_9='/usr/share/doc/polybar'
+let g:netrw_dirhist_8='/usr/share'
+let g:netrw_dirhist_7='/home/rkakade/.config/kitty/kitty'
+let g:netrw_dirhist_6='/home/rkakade/.config/autostart'
+let g:netrw_dirhist_5='/home/rkakade/.cache'
