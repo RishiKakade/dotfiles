@@ -12,11 +12,11 @@ exec --no-startup-id nitrogen --restore
 #exec --no-startup-id picom -b --experimental-backends
 exec --no-startup-id compton --config ~/.config/compton/compton.conf
 # Mouse+$super to drag floating windows to their wanted position
-exec --no-startup-id ~/.screenlayout/monitor_plugged_in.sh
+exec --no-startup-id bash -c ~/.screenlayout/monitor_plugged_in.sh
 floating_modifier $super
 
 # start a terminal
-bindsym $super+Return exec urxvt
+bindsym $super+Return exec kitty 
 
 # lock screen after 15 mins of inactivity
 bindsym $super+p exec /home/rkakade/.scripts/lockscreen.sh
@@ -24,7 +24,7 @@ exec xautolock -time 15 -locker '~/.scripts/lockscreen.sh' &
 
 # keybindings for apps
 bindsym $super+Shift+w exec firefox
-bindsym $super+Shift+e exec urxvt -e ranger
+bindsym $super+Shift+e exec kitty -e ranger
 bindsym Print exec gnome-screenshot -i
 
 # program launcher 

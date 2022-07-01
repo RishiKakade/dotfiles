@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/rkakade/Documents/ece493/assignment_2'
+let g:netrw_dirhist_2='/home/rkakade/.config/ranger'
+let g:netrw_dirhist_1='/home/rkakade/Gitlab/fydp'
+let g:netrw_dirhist_0='/home/rkakade/Gitlab/fydp/docs'
+let g:netrw_dirhist_9='/home/rkakade/Gitlab/fydp/docs/project_spec'
+let g:netrw_dirhist_8='/home/rkakade/Gitlab/fydp/docs/project_spec/block_diagram'
+let g:netrw_dirhist_7='/home/rkakade/Gitlab/fydp/docs/project_spec'
+let g:netrw_dirhist_6='/home/rkakade/Documents/ece463/lectures'
+let g:netrw_dirhist_5='/home/rkakade/Documents/ece463'
+let g:netrw_dirhist_4='/home/rkakade/Documents'
