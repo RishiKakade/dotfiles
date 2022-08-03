@@ -5,6 +5,9 @@
 #nm-applet
 #date +%s | sha256sum | base64 | head -c 32 ; echo
 
+#OMNET REQUIRMENT
+[ -f "$HOME/Debs/omnetpp-6.0/setenv" ] && source "$HOME/Debs/omnetpp-6.0/setenv"
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

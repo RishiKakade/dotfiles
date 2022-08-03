@@ -17,18 +17,13 @@ function cd --argument dir
     ls 
 end
 
-function bt 
+function bluetooth 
 for option in $argv
     switch "$option"
-        case -c --connect
+        case -c connect 
              bluetoothctl -- connect 74:8F:3C:9E:A8:89
-        case -d --disconnect
+        case -d disconnect 
              bluetoothctl -- disconnect 74:8F:3C:9E:A8:89
-        case -sc --connect
-             bluetoothctl -- connect 28:FA:19:71:0D:75
-        case -sd --disconnect
-             bluetoothctl -- disconnect 28:FA:19:71:0D:75
-
         case \*
             printf "error: Unknown option %s\n" $option
     end
@@ -36,3 +31,16 @@ end
 
 end
 
+
+function dictate
+for option in $argv
+        switch "$option"
+                case -s --start
+                        /home/rkakade/Debs/nerd-dictation/nerd-dictation begin --vosk-model-dir=/home/rkakade/Debs/nerd-dictation/model &
+                case -e --end
+                        /home/rkakade/Debs/nerd-dictation/nerd-dictation end
+                case \*
+                        printf "error: Unknown option %s/n" $option
+        end
+end
+end
