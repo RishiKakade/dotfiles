@@ -1,12 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
-let g:netrw_dirhist_9='/home/rkakade/.config/nvim/pack/plugins/start'
-let g:netrw_dirhist_8='/home/rkakade/.config/nvim/pack/plugins'
-let g:netrw_dirhist_7='/home/rkakade/.config/nvim/pack'
-let g:netrw_dirhist_6='/home/rkakade/.config/kitty'
-let g:netrw_dirhist_5='/home/rkakade/.config/i3'
-let g:netrw_dirhist_4='/etc/network/interfaces.d'
-let g:netrw_dirhist_3='/home/rkakade/Documents/ece493/assignment_2'
-let g:netrw_dirhist_2='/home/rkakade/.config/ranger'
-let g:netrw_dirhist_1='/home/rkakade/Gitlab/fydp'
-let g:netrw_dirhist_0='/home/rkakade/Gitlab/fydp/docs'
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/rkakade/Github/chrome-extensions-samples/examples/hello-world'
+let g:netrw_dirhist_2='/home/rkakade/Github/chrome-extensions-samples/examples'
+let g:netrw_dirhist_1='/home/rkakade/Github/chrome-extensions-samples'
