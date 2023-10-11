@@ -1,7 +1,7 @@
 import os
 
 # snap list | grep -v Publisher | grep -v canonical | awk '{print $1}' | tr '\n' ' '
-os.system("sudo snap install audacity cheat code discord firefox fkill gimp inkscape obs-studio signal-desktop skype spotify teams-for-linux telegram-desktop vlc")
+os.system("sudo snap install audacity discord firefox gimp inkscape obs-studio signal-desktop spotify telegram-desktop vlc")
 
 # apt-mark showmanual > list-manually-installed.txt 
 # %s/\([^\n]\)\n\([^\n]\)/\1 \2/g
